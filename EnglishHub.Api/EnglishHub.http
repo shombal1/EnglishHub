@@ -1,0 +1,6 @@
+@EnglishHub_HostAddress = http://localhost:5016
+
+GET {{EnglishHub_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

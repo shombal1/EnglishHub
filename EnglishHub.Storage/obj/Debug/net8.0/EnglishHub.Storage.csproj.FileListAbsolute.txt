@@ -1,0 +1,12 @@
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Storage.deps.json
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Storage.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Storage.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.csproj.AssemblyReference.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.AssemblyInfoInputs.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.AssemblyInfo.cs
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.csproj.CoreCompileInputs.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\refint\EnglishHub.Storage.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\ref\EnglishHub.Storage.dll

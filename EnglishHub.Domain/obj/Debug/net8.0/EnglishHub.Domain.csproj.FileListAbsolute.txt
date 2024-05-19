@@ -1,0 +1,15 @@
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.deps.json
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Storage.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Storage.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.csproj.AssemblyReference.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.AssemblyInfoInputs.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.AssemblyInfo.cs
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.csproj.CoreCompileInputs.cache
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishH.EBF13DA3.Up2Date
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\refint\EnglishHub.Domain.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\ref\EnglishHub.Domain.dll
