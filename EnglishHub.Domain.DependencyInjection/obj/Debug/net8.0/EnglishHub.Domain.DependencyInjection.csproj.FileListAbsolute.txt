@@ -1,0 +1,16 @@
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.deps.json
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.pdb
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\bin\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\bin\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.AssemblyInfo.cs
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.csproj.CoreCompileInputs.cache
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.sourcelink.json
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishH.3BDFEF61.Up2Date
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\refint\EnglishHub.Domain.DependencyInjection.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\EnglishHub.Domain.DependencyInjection.pdb
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain.DependencyInjection\obj\Debug\net8.0\ref\EnglishHub.Domain.DependencyInjection.dll

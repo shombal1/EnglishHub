@@ -13,3 +13,16 @@ D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debu
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\refint\EnglishHub.Domain.dll
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.pdb
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\ref\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.deps.json
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\bin\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.AssemblyInfoInputs.cache
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.AssemblyInfo.cs
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.csproj.CoreCompileInputs.cache
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.sourcelink.json
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\refint\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\ref\EnglishHub.Domain.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Domain\obj\Debug\net8.0\EnglishHub.Domain.csproj.AssemblyReference.cache

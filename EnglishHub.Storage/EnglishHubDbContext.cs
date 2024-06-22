@@ -1,5 +1,5 @@
 using EnglishHub.Storage.Configuration;
-using EnglishHub.Storage.Module;
+using EnglishHub.Storage.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EnglishHub.Storage;

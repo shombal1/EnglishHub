@@ -1,5 +1,5 @@
-using EnglishHub.Domain.UseCases.ForumUseCase;
-using EnglishHub.Module;
+using EnglishHub.Domain.UseCases.GetForumUseCase;
+using EnglishHub.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EnglishHub.Controllers;
@@ -20,6 +20,6 @@ public class ForumController : ControllerBase
     [Route("All")]
     public async Task<IActionResult> Get()
     {
-        return Ok((await _useCase.Get()).Select(a =>new Forum(){Id = a.Id,Title = a.Title}));
+        return Ok((await _useCase.GetForums()).Select(a =>new Forum(){Id = a.Id,Title = a.Title}));
     }
 }

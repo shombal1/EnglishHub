@@ -1,19 +1,39 @@
-using EnglishHub.Storage;
-using Microsoft.EntityFrameworkCore;
+using EnglishHub.Domain.DependencyInjection;
+using EnglishHub.Middleware;
+using EnglishHub.Storage.DependencyInjection;
+using Serilog;
+using Serilog.Filters;
+using Serilog.Sinks.OpenSearch;
 
 var builder = WebApplication.CreateBuilder(args);
+
 ConfigurationManager configuration = builder.Configuration;
 
-// Add services to the container.
+builder.Services.AddLogging(a => a.AddSerilog(new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .Enrich.WithProperty("Application", "EnglishHub")
+    .Enrich.WithProperty("Environment", builder.Environment.EnvironmentName)
+    .WriteTo.Logger(lc => lc
+        .Filter.ByExcluding(Matching.FromSource("Microsoft"))
+        .WriteTo.OpenSearch(
+            new OpenSearchSinkOptions(
+                new Uri(configuration.GetConnectionString("Logs") ?? throw new ArgumentException()))
+            {
+                ModifyConnectionSettings = x => x.BasicAuthentication("admin", "OJxZer7nM1"),
+                IndexFormat = "forum-logs-{0:yyyy.MM.dd}",
+            }))
+    .WriteTo.Logger(lc => lc
+        .WriteTo.Console())
+    .CreateLogger()));
+
+builder.Services
+    .AddForumDomain()
+    .AddForumStorage(configuration.GetConnectionString("EnglishHubDbContext") ?? throw new ArgumentException());
+
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContextPool<EnglishHubDbContext>(
-    (options) => { options.UseNpgsql(configuration.GetConnectionString(nameof(EnglishHubDbContext))); });
-
 
 var app = builder.Build();
 
@@ -29,5 +49,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<ErrorHandingMiddleware>();
 
 app.Run();

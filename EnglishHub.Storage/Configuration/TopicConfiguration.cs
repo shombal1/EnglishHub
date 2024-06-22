@@ -1,4 +1,4 @@
-using EnglishHub.Storage.Module;
+using EnglishHub.Storage.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

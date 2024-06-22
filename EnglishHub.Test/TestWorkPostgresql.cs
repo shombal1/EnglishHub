@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using EnglishHub.Storage;
+using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -24,6 +25,8 @@ public class TestWorkPostgresql
     [Fact]
     public void CheckConnection()
     {
-        Assert.True(_dbContext.Database.CanConnect());
+        bool connect = _dbContext.Database.CanConnect();
+
+        connect.Should().BeTrue();
     }
 }

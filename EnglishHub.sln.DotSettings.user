@@ -1,11 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\User\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d63c5d4c_002De80c_002D430f_002Da1aa_002D940921151be6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SearchNonExistentUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.TestWorkPostgresql&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.CreateTopicCommandValidatorShould.ReturnSuccess_WhenCommandIsValid&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.CreateTopicCommandValidatorShould&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.GetTopicRequestValidatorShould&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f07c0441_002Deddd_002D45d2_002D8f85_002D7095ef718a29/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestWorkPostgresql" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.TestWorkPostgresql&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>

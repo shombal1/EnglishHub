@@ -22,7 +22,7 @@ namespace EnglishHub.Storage.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.CommentEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.CommentEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,7 +53,7 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Comments");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.ForumEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.ForumEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,7 +68,7 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Forums");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.TopicEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.TopicEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -85,7 +85,8 @@ namespace EnglishHub.Storage.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
 
                     b.Property<DateTimeOffset?>("UpdateAt")
                         .HasColumnType("timestamp with time zone");
@@ -99,7 +100,7 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Topics");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.UserEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -115,15 +116,15 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.CommentEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.CommentEntity", b =>
                 {
-                    b.HasOne("EnglishHub.Api.Storage.Module.UserEntity", "Author")
+                    b.HasOne("EnglishHub.Storage.Models.UserEntity", "Author")
                         .WithMany("Comments")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EnglishHub.Api.Storage.Module.TopicEntity", "Topic")
+                    b.HasOne("EnglishHub.Storage.Models.TopicEntity", "Topic")
                         .WithMany("Comments")
                         .HasForeignKey("TopicId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -134,15 +135,15 @@ namespace EnglishHub.Storage.Migrations
                     b.Navigation("Topic");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.TopicEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.TopicEntity", b =>
                 {
-                    b.HasOne("EnglishHub.Api.Storage.Module.UserEntity", "Author")
+                    b.HasOne("EnglishHub.Storage.Models.UserEntity", "Author")
                         .WithMany("Topics")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EnglishHub.Api.Storage.Module.ForumEntity", "Forum")
+                    b.HasOne("EnglishHub.Storage.Models.ForumEntity", "Forum")
                         .WithMany("Topics")
                         .HasForeignKey("ForumId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -153,17 +154,17 @@ namespace EnglishHub.Storage.Migrations
                     b.Navigation("Forum");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.ForumEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.ForumEntity", b =>
                 {
                     b.Navigation("Topics");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.TopicEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.TopicEntity", b =>
                 {
                     b.Navigation("Comments");
                 });
 
-            modelBuilder.Entity("EnglishHub.Api.Storage.Module.UserEntity", b =>
+            modelBuilder.Entity("EnglishHub.Storage.Models.UserEntity", b =>
                 {
                     b.Navigation("Comments");
 
