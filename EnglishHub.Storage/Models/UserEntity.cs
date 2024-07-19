@@ -7,7 +7,10 @@ public class UserEntity
 
     [MaxLength(30)]
     public string Login { get; set; } = "";
-    
+    [MaxLength(120)]
+    public byte[] Salt { get; set; }
+    [MaxLength(32)]
+    public byte[] PasswordHash { get; set; } 
     public ICollection<TopicEntity> Topics { get; set; }
     
     public ICollection<CommentEntity> Comments { get; set; }

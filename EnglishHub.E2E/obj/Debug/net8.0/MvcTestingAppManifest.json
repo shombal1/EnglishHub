@@ -1,0 +1,7 @@
+{
+  "EnglishHub.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api",
+  "EnglishHub.Domain.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection",
+  "EnglishHub.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain",
+  "EnglishHub.Storage.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection",
+  "EnglishHub.Storage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage"
+}

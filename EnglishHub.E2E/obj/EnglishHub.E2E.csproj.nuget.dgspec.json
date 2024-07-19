@@ -1,0 +1,549 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\EnglishHub.E2E.csproj": {}
+  },
+  "projects": {
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\EnglishHub.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\EnglishHub.Api.csproj",
+        "projectName": "EnglishHub.Api",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\EnglishHub.Api.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\EnglishHub.Domain.DependencyInjection.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\EnglishHub.Domain.DependencyInjection.csproj"
+              },
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj"
+              },
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\EnglishHub.Storage.DependencyInjection.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\EnglishHub.Storage.DependencyInjection.csproj"
+              },
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2-dev-00338, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.OpenSearch": {
+              "target": "Package",
+              "version": "[1.1.0-alpha2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\EnglishHub.Domain.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\EnglishHub.Domain.DependencyInjection.csproj",
+        "projectName": "EnglishHub.Domain.DependencyInjection",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\EnglishHub.Domain.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
+        "projectName": "EnglishHub.Domain",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\EnglishHub.E2E.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\EnglishHub.E2E.csproj",
+        "projectName": "EnglishHub.E2E",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\EnglishHub.E2E.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\EnglishHub.Api.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Api\\EnglishHub.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Testcontainers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Testcontainers.PostgreSql": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\EnglishHub.Storage.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\EnglishHub.Storage.DependencyInjection.csproj",
+        "projectName": "EnglishHub.Storage.DependencyInjection",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\EnglishHub.Storage.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj"
+              },
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj",
+        "projectName": "EnglishHub.Storage",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\EnglishHub.Storage.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+                "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

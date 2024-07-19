@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dqZK1/YtesIYUEz44bm5c2vydE77gzx9cmglQbfzYFZ5sYlCHjR3Nm4GnjQFoAWR+xGTIWHbXpaknVk98T/4Tw==",
+  "dgSpecHash": "C4u7T8QZAiOpmPCfcvegMO3DRb5LLUjRXL5zbm+XnySY1QXhimzmmN7+Y5D3u9Kz4evJ2sccPhM9HbdgeukoEw==",
   "success": true,
-  "projectFilePath": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
+  "projectFilePath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

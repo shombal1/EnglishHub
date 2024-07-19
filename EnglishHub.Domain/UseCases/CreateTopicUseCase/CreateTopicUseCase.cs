@@ -26,14 +26,14 @@ public class CreateTopicUseCase : ICreateTopicUseCase
         _getForumStorage = getForumStorage;
     }
 
-    public async Task<Topic> Execute(CreateTopicCommand command)
+    public async Task<Topic> Execute(CreateTopicCommand command,CancellationToken cancellationToken)
     {
-        await _validator.ValidateAndThrowAsync(command);
+        await _validator.ValidateAndThrowAsync(command,cancellationToken);
 
         _intentionManager.ThrowIfForbidden(TopicIntention.Create);
 
-        await _getForumStorage.ThrowIfForumNotFound(command.ForumId);
+        await _getForumStorage.ThrowIfForumNotFound(command.ForumId,cancellationToken);
 
-        return await _storage.CreateTopic(command.ForumId, _identityProvider.Current.UserId, command.Title);
+        return await _storage.CreateTopic(command.ForumId, _identityProvider.Current.UserId, command.Title,cancellationToken);
     }
 }

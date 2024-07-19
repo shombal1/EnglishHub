@@ -2,5 +2,5 @@ namespace EnglishHub.Domain.Authentication;
 
 public interface IIdentityProvider
 {
-    IIdentity Current { get; }
+    IIdentity Current { get; set; }
 }

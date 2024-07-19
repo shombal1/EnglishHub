@@ -236,3 +236,25 @@ D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\E
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.pdb
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Storage.DependencyInjection.pdb
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\FluentValidation.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenSearch.Net.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Formatting.OpenSearch.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.OpenSearch.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Storage.DependencyInjection.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Storage.DependencyInjection.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\obj\Debug\net8.0\EnglishHub.Api.sourcelink.json

@@ -1,3 +1,6 @@
+using System.Reflection;
+using EnglishHub.Authentication;
+using EnglishHub.Domain.Authentication;
 using EnglishHub.Domain.DependencyInjection;
 using EnglishHub.Middleware;
 using EnglishHub.Storage.DependencyInjection;
@@ -27,9 +30,14 @@ builder.Services.AddLogging(a => a.AddSerilog(new LoggerConfiguration()
     .CreateLogger()));
 
 builder.Services
+    .AddScoped<IAuthenticationTokenStorage, AuthenticationTokenStorage>()
+    .Configure<AuthenticationConfiguration>(builder.Configuration.GetSection("Authentication").Bind);
+
+builder.Services
     .AddForumDomain()
     .AddForumStorage(configuration.GetConnectionString("EnglishHubDbContext") ?? throw new ArgumentException());
 
+builder.Services.AddAutoMapper(config => config.AddMaps(Assembly.GetEntryAssembly()));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -53,3 +61,5 @@ app.MapControllers();
 app.UseMiddleware<ErrorHandingMiddleware>();
 
 app.Run();
+
+public partial class Program {}

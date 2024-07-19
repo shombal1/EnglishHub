@@ -26,3 +26,7 @@ D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Storage\obj\Debug\net8
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Domain.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Domain.pdb
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishH.D60C801B.Up2Date
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Domain.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\bin\Debug\net8.0\EnglishHub.Domain.pdb
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishHub.Storage.sourcelink.json
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage\obj\Debug\net8.0\EnglishH.D60C801B.Up2Date

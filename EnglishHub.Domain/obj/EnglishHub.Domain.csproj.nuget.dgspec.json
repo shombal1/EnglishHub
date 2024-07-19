@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {}
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
+    "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
+        "projectUniqueName": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
         "projectName": "EnglishHub.Domain",
-        "projectPath": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain\\obj\\",
+        "projectPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\EnglishHub.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
+          "D:\\Programm\\Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +52,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

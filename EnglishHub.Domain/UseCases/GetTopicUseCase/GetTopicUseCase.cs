@@ -18,12 +18,12 @@ public class GetTopicUseCase : IGetTopicUseCase
         _validator = validator;
     }
 
-    public async Task<IEnumerable<Topic>> Execute(GetTopicRequest request)
+    public async Task<IEnumerable<Topic>> Execute(GetTopicRequest request,CancellationToken cancellationToken)
     {
-        await _validator.ValidateAndThrowAsync(request);
+        await _validator.ValidateAndThrowAsync(request,cancellationToken);
 
-        await _getForumStorage.ThrowIfForumNotFound(request.ForumId);
+        await _getForumStorage.ThrowIfForumNotFound(request.ForumId,cancellationToken);
 
-        return await _storage.GetTopics(request.ForumId, request.Skip, request.Take);
+        return await _storage.GetTopics(request.ForumId, request.Skip, request.Take,cancellationToken);
     }
 }

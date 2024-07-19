@@ -18,7 +18,7 @@ public class CreateCreateTopicStorage : ICreateTopicStorage
         _mapper = mapper;
     }
 
-    public async Task<Topic> CreateTopic(Guid forumId, Guid authorId, string title)
+    public async Task<Topic> CreateTopic(Guid forumId, Guid authorId, string title,CancellationToken cancellationToken)
     {
         var newTopic = new TopicEntity
         {
@@ -29,13 +29,13 @@ public class CreateCreateTopicStorage : ICreateTopicStorage
             ForumId = forumId,
         };
 
-        await _dbContext.Topics.AddAsync(newTopic);
+        await _dbContext.Topics.AddAsync(newTopic,cancellationToken);
 
-        await _dbContext.SaveChangesAsync();
+        await _dbContext.SaveChangesAsync(cancellationToken);
 
         return await _dbContext.Topics
             .Where(t => t.Id == newTopic.Id)
             .ProjectTo<Topic>(_mapper.ConfigurationProvider)
-            .FirstAsync();
+            .FirstAsync(cancellationToken);
     }
 }

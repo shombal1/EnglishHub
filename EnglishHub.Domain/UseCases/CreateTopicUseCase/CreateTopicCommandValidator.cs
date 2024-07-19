@@ -12,6 +12,6 @@ public class CreateTopicCommandValidator : AbstractValidator<CreateTopicCommand>
         RuleFor(a => a.Title)
             .Cascade(CascadeMode.Stop)
             .NotEmpty().WithErrorCode("Empty")
-            .MaximumLength(100).WithErrorCode("Length title not in range");
+            .MaximumLength(100).WithErrorCode("Length title too long");
     }
 }

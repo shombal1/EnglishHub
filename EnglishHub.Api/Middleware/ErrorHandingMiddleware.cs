@@ -20,7 +20,7 @@ public class ErrorHandingMiddleware
     {
         try
         {
-            await _next.Invoke(context);
+            await _next(context);
         }
         catch (Exception exception)
         {

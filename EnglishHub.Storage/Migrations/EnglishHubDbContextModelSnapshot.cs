@@ -111,6 +111,16 @@ namespace EnglishHub.Storage.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("character varying(30)");
 
+                    b.Property<byte[]>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("bytea");
+
+                    b.Property<byte[]>("Salt")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("bytea");
+
                     b.HasKey("Id");
 
                     b.ToTable("Users");

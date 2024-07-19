@@ -20,18 +20,18 @@ public class GetForumStorage : IGetForumStorage
         _mapper = mapper;
     }
 
-    public async Task<IEnumerable<Forum>> GetForums()
+    public async Task<IEnumerable<Forum>> GetForums(CancellationToken cancellationToken)
     {
         return (await _memoryCache.GetOrCreateAsync(
             nameof(GetForums),
             entry =>
             {
                 entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10);
-
+                
                 return _dbContext.Forums
                     .AsTracking()
                     .ProjectTo<Forum>(_mapper.ConfigurationProvider)
-                    .ToArrayAsync();
+                    .ToArrayAsync(cancellationToken);
             }))!;
     }
 }
