@@ -1,6 +1,7 @@
 using AutoMapper;
 using EnglishHub.Domain.Authentication;
-using EnglishHub.Domain.UseCases.SignInUseCase;
+using EnglishHub.Domain.UseCases.SignIn;
+using EnglishHub.Storage.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EnglishHub.Storage.Storage;
@@ -21,5 +22,21 @@ public class SignInStorage : ISignInStorage
         return _mapper.Map<RecognizeUser>(await _dbContext.Users
             .FirstAsync(f=>f.Login==login, cancellationToken: cancellationToken)
         );
+    }
+
+    public async Task<Guid> CreateSession(Guid userId, DateTimeOffset expirationMoment, CancellationToken cancellationToken)
+    {
+        Guid sessionId = Guid.NewGuid();
+
+        await _dbContext.Sessions.AddAsync(new SessionEntity()
+        {
+            Id = sessionId,
+            UserId = userId,
+            Expires = expirationMoment
+        }, cancellationToken);
+
+        await _dbContext.SaveChangesAsync(cancellationToken);
+
+        return sessionId;
     }
 }

@@ -1,6 +1,7 @@
+using System.Net;
 using System.Net.Http.Json;
+using EnglishHub.Api.Models;
 using EnglishHub.Domain.Authentication;
-using EnglishHub.Models;
 using FluentAssertions;
 
 namespace EnglishHub.E2E;
@@ -30,8 +31,11 @@ public class AuthenticationEndPointShould : IClassFixture<EnglishHubApplicationF
         User? signInUser = await signInResponse.Content.ReadFromJsonAsync<User>();
         
         signInResponse.IsSuccessStatusCode.Should().BeTrue();
-        
-        signInResponse.Headers.Should().ContainKey("EnglishHub-AuthenticationKey");
-        signInUser.Should().NotBeNull().And.BeEquivalentTo(createdUser);
+
+        signInUser.Should().NotBeNull();
+        signInUser.UserId.Should().Be(createdUser!.UserId);
+
+        var createForumResponse = await client.PostAsync("Forum/AddForum", JsonContent.Create(new CreateForum() { Title = "wdwdwd" }));
+        createForumResponse.IsSuccessStatusCode.Should().BeTrue();
     }
 }

@@ -1,4 +1,4 @@
-namespace EnglishHub
+namespace EnglishHub.Api
 {
     public class WeatherForecast
     {

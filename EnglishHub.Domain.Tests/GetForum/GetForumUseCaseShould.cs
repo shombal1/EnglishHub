@@ -1,5 +1,5 @@
 using EnglishHub.Domain.Models;
-using EnglishHub.Domain.UseCases.GetForumUseCase;
+using EnglishHub.Domain.UseCases.GetForum;
 using FluentAssertions;
 using Moq;
 using Moq.Language.Flow;
@@ -28,6 +28,6 @@ public class GetForumUseCaseShould
 
         var actual = await sut.GetForums(CancellationToken.None);
 
-        actual.Should().BeEquivalentTo(expectedResources);
+        actual.Should().BeSameAs(expectedResources);
     }
 }

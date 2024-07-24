@@ -776,6 +776,7 @@
       "EnglishHub.Domain/1.0.0": {
         "dependencies": {
           "FluentValidation": "11.9.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.0"
         },
         "runtime": {

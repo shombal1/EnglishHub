@@ -1,15 +1,17 @@
-namespace EnglishHub.Authentication;
+namespace EnglishHub.Api.Authentication;
 
 public class AuthenticationTokenStorage : IAuthenticationTokenStorage
 {
     private const string HeaderKey = "EnglishHub-AuthenticationKey";
 
-    public bool TryExtract(HttpContext httpContent, out string token)
+    public bool TryExtract(HttpContext httpContext, out string token)
     {
-        if (httpContent.Request.Headers.TryGetValue(HeaderKey, out var values)
-            && !string.IsNullOrWhiteSpace(values.FirstOrDefault()))
+        
+
+        if (httpContext.Request.Cookies.TryGetValue(HeaderKey, out var values)
+            && !string.IsNullOrWhiteSpace(values))
         {
-            token = values.First()!;
+            token = values;
 
             return true;
         }
@@ -18,8 +20,8 @@ public class AuthenticationTokenStorage : IAuthenticationTokenStorage
         return false;
     }
 
-    public void Store(HttpContext httpContent, string token)
+    public void Store(HttpContext httpContext, string token)
     {
-        httpContent.Response.Headers[HeaderKey] = token;
+        httpContext.Response.Cookies.Append(HeaderKey,token);
     }
 }

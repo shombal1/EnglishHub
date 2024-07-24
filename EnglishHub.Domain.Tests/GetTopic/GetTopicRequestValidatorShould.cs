@@ -1,4 +1,4 @@
-using EnglishHub.Domain.UseCases.GetTopicUseCase;
+using EnglishHub.Domain.UseCases.GetTopic;
 using FluentAssertions;
 
 namespace EnglishHub.Domain.Tests.GetTopic;

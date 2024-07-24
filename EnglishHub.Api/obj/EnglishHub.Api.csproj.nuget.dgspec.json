@@ -80,6 +80,18 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
+              "target": "Package",
+              "version": "[1.9.0-beta.2, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.0.0, )"
@@ -250,6 +262,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",

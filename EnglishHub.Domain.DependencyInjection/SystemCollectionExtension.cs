@@ -1,12 +1,12 @@
 using EnglishHub.Domain.Authentication;
 using EnglishHub.Domain.Authorization;
 using EnglishHub.Domain.Models;
-using EnglishHub.Domain.UseCases.CreateForumUseCase;
-using EnglishHub.Domain.UseCases.CreateTopicUseCase;
-using EnglishHub.Domain.UseCases.GetForumUseCase;
-using EnglishHub.Domain.UseCases.GetTopicUseCase;
-using EnglishHub.Domain.UseCases.SignInUseCase;
-using EnglishHub.Domain.UseCases.SignOnUseCase;
+using EnglishHub.Domain.UseCases.CreateForum;
+using EnglishHub.Domain.UseCases.CreateTopic;
+using EnglishHub.Domain.UseCases.GetForum;
+using EnglishHub.Domain.UseCases.GetTopic;
+using EnglishHub.Domain.UseCases.SignIn;
+using EnglishHub.Domain.UseCases.SignOn;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 

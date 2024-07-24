@@ -1,10 +1,10 @@
-using EnglishHub.Authentication;
-using EnglishHub.Domain.UseCases.SignInUseCase;
-using EnglishHub.Domain.UseCases.SignOnUseCase;
-using EnglishHub.Models;
+using EnglishHub.Api.Authentication;
+using EnglishHub.Api.Models;
+using EnglishHub.Domain.UseCases.SignIn;
+using EnglishHub.Domain.UseCases.SignOn;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EnglishHub.Controllers;
+namespace EnglishHub.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]

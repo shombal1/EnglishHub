@@ -68,6 +68,25 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Forums");
                 });
 
+            modelBuilder.Entity("EnglishHub.Storage.Models.SessionEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("Expires")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Sessions");
+                });
+
             modelBuilder.Entity("EnglishHub.Storage.Models.TopicEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -145,6 +164,17 @@ namespace EnglishHub.Storage.Migrations
                     b.Navigation("Topic");
                 });
 
+            modelBuilder.Entity("EnglishHub.Storage.Models.SessionEntity", b =>
+                {
+                    b.HasOne("EnglishHub.Storage.Models.UserEntity", "User")
+                        .WithMany("Sessions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("EnglishHub.Storage.Models.TopicEntity", b =>
                 {
                     b.HasOne("EnglishHub.Storage.Models.UserEntity", "Author")
@@ -177,6 +207,8 @@ namespace EnglishHub.Storage.Migrations
             modelBuilder.Entity("EnglishHub.Storage.Models.UserEntity", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Sessions");
 
                     b.Navigation("Topics");
                 });

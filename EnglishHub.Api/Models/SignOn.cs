@@ -1,4 +1,4 @@
-namespace EnglishHub.Models;
+namespace EnglishHub.Api.Models;
 
 public class SignOn
 {

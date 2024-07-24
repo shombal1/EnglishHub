@@ -1,11 +1,11 @@
 using System.Reflection;
 using EnglishHub.Domain.Authentication;
-using EnglishHub.Domain.UseCases.CreateForumUseCase;
-using EnglishHub.Domain.UseCases.CreateTopicUseCase;
-using EnglishHub.Domain.UseCases.GetForumUseCase;
-using EnglishHub.Domain.UseCases.GetTopicUseCase;
-using EnglishHub.Domain.UseCases.SignInUseCase;
-using EnglishHub.Domain.UseCases.SignOnUseCase;
+using EnglishHub.Domain.UseCases.CreateForum;
+using EnglishHub.Domain.UseCases.CreateTopic;
+using EnglishHub.Domain.UseCases.GetForum;
+using EnglishHub.Domain.UseCases.GetTopic;
+using EnglishHub.Domain.UseCases.SignIn;
+using EnglishHub.Domain.UseCases.SignOn;
 using EnglishHub.Storage.Storage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,7 +22,8 @@ public static class SystemCollectionExtension
             .AddScoped<IGetTopicStorage, GetTopicStorage>()
             .AddScoped<ICreateForumStorage, CreateForumStorage>()
             .AddScoped<ISignOnStorage, SignOnStorage>()
-            .AddScoped<ISignInStorage, SignInStorage>();
+            .AddScoped<ISignInStorage, SignInStorage>()
+            .AddScoped<IAuthenticationServiceStorage,AuthenticationServiceStorage>();
 
         service.AddDbContextPool<EnglishHubDbContext>(
             options => { options.UseNpgsql(dbConnectionStringPostgres); });

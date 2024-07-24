@@ -1,4 +1,4 @@
-using EnglishHub.Domain.UseCases.CreateTopicUseCase;
+using EnglishHub.Domain.UseCases.CreateTopic;
 using FluentAssertions;
 
 namespace EnglishHub.Domain.Tests.CreateTopic;

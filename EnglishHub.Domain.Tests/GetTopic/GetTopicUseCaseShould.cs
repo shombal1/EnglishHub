@@ -1,7 +1,7 @@
 using EnglishHub.Domain.Exceptions;
 using EnglishHub.Domain.Models;
-using EnglishHub.Domain.UseCases.GetForumUseCase;
-using EnglishHub.Domain.UseCases.GetTopicUseCase;
+using EnglishHub.Domain.UseCases.GetForum;
+using EnglishHub.Domain.UseCases.GetTopic;
 using FluentAssertions;
 using FluentValidation;
 using FluentValidation.Results;

@@ -1,4 +1,4 @@
-using EnglishHub.Domain.UseCases.SignOnUseCase;
+using EnglishHub.Domain.UseCases.SignOn;
 using EnglishHub.Storage.Models;
 
 namespace EnglishHub.Storage.Storage;

@@ -1,10 +1,10 @@
 using AutoMapper;
-using EnglishHub.Domain.UseCases.CreateForumUseCase;
-using EnglishHub.Domain.UseCases.GetForumUseCase;
-using EnglishHub.Models;
+using EnglishHub.Api.Models;
+using EnglishHub.Domain.UseCases.CreateForum;
+using EnglishHub.Domain.UseCases.GetForum;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EnglishHub.Controllers;
+namespace EnglishHub.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]

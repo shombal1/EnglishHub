@@ -1,6 +1,6 @@
 using AutoMapper;
 using EnglishHub.Domain.Models;
-using EnglishHub.Domain.UseCases.CreateForumUseCase;
+using EnglishHub.Domain.UseCases.CreateForum;
 using EnglishHub.Storage.Models;
 using Microsoft.Extensions.Caching.Memory;
 

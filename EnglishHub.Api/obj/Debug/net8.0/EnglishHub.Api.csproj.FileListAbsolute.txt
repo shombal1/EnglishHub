@@ -258,3 +258,9 @@ D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\n
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.pdb
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Storage.DependencyInjection.pdb
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\obj\Debug\net8.0\EnglishHub.Api.sourcelink.json
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Api.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll

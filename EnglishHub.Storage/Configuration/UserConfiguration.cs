@@ -15,5 +15,8 @@ public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
         
         builder.HasMany(key => key.Comments)
             .WithOne(key => key.Author);
+
+        builder.HasMany(key => key.Sessions)
+            .WithOne(key => key.User);
     }
 }

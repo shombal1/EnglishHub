@@ -12,6 +12,6 @@ public class UserEntity
     [MaxLength(32)]
     public byte[] PasswordHash { get; set; } 
     public ICollection<TopicEntity> Topics { get; set; }
-    
     public ICollection<CommentEntity> Comments { get; set; }
+    public ICollection<SessionEntity> Sessions { get; set; }
 }

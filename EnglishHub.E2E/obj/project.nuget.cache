@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bv2BMvMWv5IQnydWMuF5Pau87lcJVqD1CPyaNy80OuYRSjbibQL6r70Tj0tI5zIwZXsa0lzhTi9a8/Uk8rE1hA==",
+  "dgSpecHash": "HXqS9gpum6oxhIb/LoMFwSxTgS9JAv8u+6zBlEO/E3yJb4M/lp0PoWCYv9NonfLnH1GkZcSi8ErkWF/AqjHVBQ==",
   "success": true,
   "projectFilePath": "D:\\Programm\\JetBrains Rider 2023.1\\Project\\EnglishHub\\EnglishHub.E2E\\EnglishHub.E2E.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,12 @@
     "C:\\Users\\Admin\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\opensearch.net\\1.6.0\\opensearch.net.1.6.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry\\1.9.0\\opentelemetry.1.9.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry.api\\1.9.0\\opentelemetry.api.1.9.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.9.0\\opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry.exporter.prometheus.aspnetcore\\1.9.0-beta.2\\opentelemetry.exporter.prometheus.aspnetcore.1.9.0-beta.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.9.0\\opentelemetry.extensions.hosting.1.9.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.9.0\\opentelemetry.instrumentation.aspnetcore.1.9.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

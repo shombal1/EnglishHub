@@ -1,11 +1,10 @@
 using AutoMapper;
-using EnglishHub.Domain.UseCases.CreateForumUseCase;
-using EnglishHub.Domain.UseCases.CreateTopicUseCase;
-using EnglishHub.Domain.UseCases.GetTopicUseCase;
-using EnglishHub.Models;
+using EnglishHub.Api.Models;
+using EnglishHub.Domain.UseCases.CreateTopic;
+using EnglishHub.Domain.UseCases.GetTopic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EnglishHub.Controllers;
+namespace EnglishHub.Api.Controllers;
 
 public class TopicController : ControllerBase
 {

@@ -15,6 +15,7 @@ public class EnglishHubDbContext : DbContext
     public DbSet<TopicEntity> Topics { get; set; }
     public DbSet<UserEntity> Users { get; set; }
     public DbSet<CommentEntity> Comments { get; set; }
+    public DbSet<SessionEntity> Sessions { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

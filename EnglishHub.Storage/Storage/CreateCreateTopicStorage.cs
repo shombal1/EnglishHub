@@ -1,7 +1,7 @@
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using EnglishHub.Domain.Models;
-using EnglishHub.Domain.UseCases.CreateTopicUseCase;
+using EnglishHub.Domain.UseCases.CreateTopic;
 using EnglishHub.Storage.Models;
 using Microsoft.EntityFrameworkCore;
 

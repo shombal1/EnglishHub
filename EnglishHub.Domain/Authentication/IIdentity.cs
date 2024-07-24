@@ -3,18 +3,7 @@ namespace EnglishHub.Domain.Authentication;
 public interface IIdentity
 {
     Guid UserId { get; }
-}
-
-public class User : IIdentity
-{
-    public User(Guid userId)
-    {
-        UserId = userId;
-    }
-
-    public Guid UserId { get; }
-
-    public static User Guest => new User(Guid.Empty);
+    Guid SessionId { get; }
 }
 
 public static class IdentityExtension

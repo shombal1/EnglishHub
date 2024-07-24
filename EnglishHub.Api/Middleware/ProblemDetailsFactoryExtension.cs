@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace EnglishHub.Middleware;
+namespace EnglishHub.Api.Middleware;
 
 public static class ProblemDetailsFactoryExtension
 {

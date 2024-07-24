@@ -4,7 +4,7 @@ using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 
-namespace EnglishHub.Middleware;
+namespace EnglishHub.Api.Middleware;
 
 public class ErrorHandingMiddleware
 {
@@ -15,14 +15,16 @@ public class ErrorHandingMiddleware
         _next = next;
     }
 
-    public async Task InvokeAsync(HttpContext context, ProblemDetailsFactory problemDetailsFactory,
+    public async Task InvokeAsync(
+        HttpContext context,
+        ProblemDetailsFactory problemDetailsFactory,
         ILogger<ErrorHandingMiddleware> logger)
     {
         try
         {
             await _next(context);
         }
-        catch (Exception exception)
+        catch (Exception exception) 
         {
             ProblemDetails problemDetails;
             switch (exception)
