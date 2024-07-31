@@ -53,7 +53,7 @@ public class CreateTopicUseCaseShould
 
         _intentionIsAllowedSetup.Returns(false);
 
-        await sut.Invoking(t => t.Execute(new CreateTopicCommand(forumId, "forum"),CancellationToken.None)).Should()
+        await sut.Invoking(t => t.Handle(new CreateTopicCommand(forumId, "forum"),CancellationToken.None)).Should()
             .ThrowAsync<IntentionManagerException>();
     }
 
@@ -65,7 +65,7 @@ public class CreateTopicUseCaseShould
         _intentionIsAllowedSetup.Returns(true);
         _getForumStorageSetup.ReturnsAsync(Array.Empty<Forum>());
 
-        await sut.Invoking(s => s.Execute(new CreateTopicCommand(forumId, "Some title"),CancellationToken.None))
+        await sut.Invoking(s => s.Handle(new CreateTopicCommand(forumId, "Some title"),CancellationToken.None))
             .Should().ThrowAsync<ForumNotFoundException>();
     }
 }

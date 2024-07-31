@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
             "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
               "target": "Package",
               "version": "[1.9.0-beta.2, )"
@@ -91,6 +95,10 @@
             "OpenTelemetry.Instrumentation.AspNetCore": {
               "target": "Package",
               "version": "[1.9.0, )"
+            },
+            "OpenTelemetry.Instrumentation.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-beta.12, )"
             },
             "Serilog": {
               "target": "Package",
@@ -263,11 +271,19 @@
               "target": "Package",
               "version": "[11.9.2, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
               "target": "Package",
               "version": "[8.0.0, )"
             }

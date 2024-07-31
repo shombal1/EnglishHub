@@ -1,9 +1,10 @@
 using EnglishHub.Domain.Authentication;
 using FluentValidation;
+using MediatR;
 
 namespace EnglishHub.Domain.UseCases.SignOn;
 
-public class SignOnUseCase : ISignOnUseCase
+public class SignOnUseCase : IRequestHandler<SignOnCommand,IIdentity>
 {
     private readonly IValidator<SignOnCommand> _validator;
     private readonly ISignOnStorage _storage;
@@ -19,7 +20,7 @@ public class SignOnUseCase : ISignOnUseCase
         _passwordManager = passwordManager;
     }
     
-    public async Task<IIdentity> Execute(SignOnCommand command, CancellationToken cancellationToken)
+    public async Task<IIdentity> Handle(SignOnCommand command, CancellationToken cancellationToken)
     {
         await _validator.ValidateAndThrowAsync(command, cancellationToken);
 

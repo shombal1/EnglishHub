@@ -2,10 +2,11 @@ using EnglishHub.Domain.Authentication;
 using EnglishHub.Domain.Authorization;
 using EnglishHub.Domain.Models;
 using FluentValidation;
+using MediatR;
 
 namespace EnglishHub.Domain.UseCases.CreateForum;
 
-public class CreateForumUseCase : ICreateForumUseCase
+public class CreateForumUseCase : IRequestHandler<CreateForumCommand,Forum>
 {
     private readonly ICreateForumStorage _storage;
     private readonly IValidator<CreateForumCommand> _validator;
@@ -23,7 +24,7 @@ public class CreateForumUseCase : ICreateForumUseCase
         _identityProvider = identityProvider;
     }
     
-    public async Task<Forum> Execute(CreateForumCommand command,CancellationToken cancellationToken)
+    public async Task<Forum> Handle(CreateForumCommand command,CancellationToken cancellationToken)
     {
         await _validator.ValidateAndThrowAsync(command,cancellationToken);
 

@@ -6,17 +6,12 @@ using EnglishHub.Api.Monitoring;
 using EnglishHub.Domain.Authentication;
 using EnglishHub.Domain.DependencyInjection;
 using EnglishHub.Storage.DependencyInjection;
-using Serilog;
-using Serilog.Filters;
-using Serilog.Sinks.OpenSearch;
 
 var builder = WebApplication.CreateBuilder(args);
 
 ConfigurationManager configuration = builder.Configuration;
 
-builder.Services
-    .AddApiLogger(configuration,builder.Environment)
-    .AddApiMetrics();
+builder.Services.AddMonitoring(configuration,builder.Environment);
 
 builder.Services
     .AddScoped<IAuthenticationTokenStorage, AuthenticationTokenStorage>()
@@ -51,7 +46,6 @@ app.UseMiddleware<ErrorHandingMiddleware>()
    .UseMiddleware<AuthenticationMiddleware>();
 
 app.UseOpenTelemetryPrometheusScrapingEndpoint();
-
 app.Run();
 
 namespace EnglishHub.Api

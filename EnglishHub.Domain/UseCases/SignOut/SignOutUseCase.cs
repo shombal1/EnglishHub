@@ -1,9 +1,10 @@
 using EnglishHub.Domain.Authentication;
 using EnglishHub.Domain.Authorization;
+using MediatR;
 
 namespace EnglishHub.Domain.UseCases.SignOut;
 
-public class SignOutUseCase : ISignOutUseCase
+public class SignOutUseCase : IRequestHandler<SignOutCommand>
 {
     private readonly ISignOutStorage _storage;
     private readonly IIdentityProvider _identityProvider;
@@ -19,12 +20,12 @@ public class SignOutUseCase : ISignOutUseCase
         _intentionManager = intentionManager;
     }
     
-    public async Task Execute(CancellationToken cancellationToken)
+    public Task Handle(SignOutCommand command,CancellationToken cancellationToken)
     {
         _intentionManager.ThrowIfForbidden(AccountIntention.SignOut);
 
         Guid sessionId = _identityProvider.Current.SessionId;
-        await _storage.RemoveSession(sessionId, cancellationToken);
-
+        
+        return _storage.RemoveSession(sessionId, cancellationToken);
     }
 }

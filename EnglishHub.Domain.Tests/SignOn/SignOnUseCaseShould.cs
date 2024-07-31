@@ -10,7 +10,7 @@ namespace EnglishHub.Domain.Tests.SignOn;
 
 public class SignOnUseCaseShould
 {
-    private readonly ISignOnUseCase _sut;
+    private readonly SignOnUseCase _sut;
     private readonly ISetup<ISignOnStorage, Task<Guid>> _storageSetup;
 
     public SignOnUseCaseShould()
@@ -37,7 +37,7 @@ public class SignOnUseCaseShould
         
         _storageSetup.ReturnsAsync(userId);
 
-        IIdentity createdNewUser = await _sut.Execute(new SignOnCommand("some login", "some password"), CancellationToken.None);
+        IIdentity createdNewUser = await _sut.Handle(new SignOnCommand("some login", "some password"), CancellationToken.None);
 
         createdNewUser.UserId.Should().Be(userId);
     }

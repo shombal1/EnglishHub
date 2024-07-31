@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnglishHub.Storage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0fec930bc32afd8c8b18438d7681d3f87965a66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ad98e04061c722257e4e7b8bd2276ce552b8e05")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnglishHub.Storage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnglishHub.Storage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

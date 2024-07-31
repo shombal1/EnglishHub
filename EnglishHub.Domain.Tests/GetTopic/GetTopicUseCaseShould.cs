@@ -12,7 +12,7 @@ namespace EnglishHub.Domain.Tests.GetTopic;
 
 public class GetTopicUseCaseShould
 {
-    private readonly IGetTopicUseCase _sut;
+    private readonly GetTopicUseCase _sut;
 
     private readonly ISetup<IGetForumStorage, Task<IEnumerable<Forum>>> _getForumStorageSetup;
     private readonly ISetup<IGetTopicStorage, Task<IEnumerable<Topic>>> _getTopicStorageSetup;
@@ -21,14 +21,14 @@ public class GetTopicUseCaseShould
     {
         var getTopicStorage = new Mock<IGetTopicStorage>();
         var getForumStorage = new Mock<IGetForumStorage>();
-        var requestValidator = new Mock<IValidator<GetTopicRequest>>();
+        var requestValidator = new Mock<IValidator<GetTopicQuery>>();
 
         _getForumStorageSetup = getForumStorage.Setup(f => 
             f.GetForums(It.IsAny<CancellationToken>()));
         _getTopicStorageSetup = getTopicStorage.Setup(t => 
             t.GetTopics(It.IsAny<Guid>(), It.IsAny<int>(), It.IsAny<int>(),It.IsAny<CancellationToken>()));
 
-        requestValidator.Setup(v => v.Validate(It.IsAny<GetTopicRequest>())).Returns(new ValidationResult());
+        requestValidator.Setup(v => v.Validate(It.IsAny<GetTopicQuery>())).Returns(new ValidationResult());
 
         _sut = new GetTopicUseCase(getTopicStorage.Object, getForumStorage.Object, requestValidator.Object);
     }
@@ -43,7 +43,7 @@ public class GetTopicUseCaseShould
             new Forum() { Id = Guid.Parse("9B958413-CC69-4498-837F-D6032A6B360E") }
         });
 
-        await _sut.Invoking(s => s.Execute(new GetTopicRequest(idNonExistentForum, 0, 1),CancellationToken.None)).Should()
+        await _sut.Invoking(s => s.Handle(new GetTopicQuery(idNonExistentForum, 0, 1),CancellationToken.None)).Should()
             .ThrowAsync<ForumNotFoundException>();
     }
 
@@ -58,7 +58,7 @@ public class GetTopicUseCaseShould
 
         _getTopicStorageSetup.ReturnsAsync(expectedResources);
 
-        var actualResources = await _sut.Execute(new GetTopicRequest(forumId, 6, 9),CancellationToken.None);
+        var actualResources = await _sut.Handle(new GetTopicQuery(forumId, 6, 9),CancellationToken.None);
 
         actualResources.Should().BeEquivalentTo(expectedResources);
     }

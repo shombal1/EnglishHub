@@ -1,9 +1,9 @@
 scrape_configs:
-  - job_name: english-hub-scrape
+  - job_name: 'english-hub-scrape'
     scrape_interval: 10s
     scrape_timeout: 3s
     static_configs:
-      - targets:
-          - host.docker.internal:44351
+      - targets: 
+        - 'host.docker.internal:5016'
         labels:
           app: english-hub

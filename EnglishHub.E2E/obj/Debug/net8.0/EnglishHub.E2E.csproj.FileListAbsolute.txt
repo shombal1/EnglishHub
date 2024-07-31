@@ -456,3 +456,11 @@ D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\obj\Debug\n
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\obj\Debug\net8.0\EnglishHub.E2E.pdb
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\obj\Debug\net8.0\EnglishHub.E2E.genruntimeconfig.cache
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\obj\Debug\net8.0\ref\EnglishHub.E2E.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\MediatR.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.Api.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.E2E\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll

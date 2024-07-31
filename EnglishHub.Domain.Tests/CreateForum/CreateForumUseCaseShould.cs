@@ -44,7 +44,7 @@ public class CreateForumUseCaseShould
 
         _intentionIsAllowedSetup.Returns(false);
 
-        await _sut.Invoking(s => s.Execute(command,CancellationToken.None)).Should().ThrowAsync<IntentionManagerException>();
+        await _sut.Invoking(s => s.Handle(command,CancellationToken.None)).Should().ThrowAsync<IntentionManagerException>();
     }
 
     [Fact]
@@ -60,7 +60,7 @@ public class CreateForumUseCaseShould
         _intentionIsAllowedSetup.Returns(true);
         _storageSetup.ReturnsAsync(expectedForum);
         
-        var createdForum = await _sut.Execute(command, CancellationToken.None);
+        var createdForum = await _sut.Handle(command, CancellationToken.None);
 
         createdForum.Should().NotBeNull();
         createdForum.Should().BeSameAs(expectedForum);

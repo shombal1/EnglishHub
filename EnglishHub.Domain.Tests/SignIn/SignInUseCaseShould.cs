@@ -11,7 +11,7 @@ namespace EnglishHub.Domain.Tests.SignIn;
 
 public class SignInUseCaseShould
 {
-    private readonly ISignInUseCase _sut;
+    private readonly SignInUseCase _sut;
 
     private readonly Mock<ISignInStorage> _storage;
     private readonly Mock<ISymmetricEncryptor> _symmetricEncryptor;
@@ -52,7 +52,7 @@ public class SignInUseCaseShould
 
         _findUserSetup.ReturnsAsync(() => null);
 
-        (await _sut.Invoking(s => s.Execute(command, CancellationToken.None))
+        (await _sut.Invoking(s => s.Handle(command, CancellationToken.None))
                 .Should().ThrowAsync<ValidationException>()).Which.Errors.Should()
             .Contain(e => e.PropertyName == nameof(command.Login));
     }
@@ -65,7 +65,7 @@ public class SignInUseCaseShould
         _findUserSetup.ReturnsAsync(new RecognizeUser());
         _passwordManagerSetup.Returns(false);
 
-        (await _sut.Invoking(s => s.Execute(command, CancellationToken.None))
+        (await _sut.Invoking(s => s.Handle(command, CancellationToken.None))
                 .Should().ThrowAsync<ValidationException>()).Which.Errors.Should()
             .Contain(e => e.PropertyName == nameof(command.Password));
     }
@@ -80,7 +80,7 @@ public class SignInUseCaseShould
         _findUserSetup.ReturnsAsync(new RecognizeUser() { UserId = userId });
         _passwordManagerSetup.Returns(true);
 
-        var (identity,_) = await _sut.Execute(new SignInCommand("Login", "1111"), CancellationToken.None);
+        var (identity,_) = await _sut.Handle(new SignInCommand("Login", "1111"), CancellationToken.None);
         
         _storage.Verify(s=>
             s.CreateSession(userId,It.IsAny<DateTimeOffset>(),CancellationToken.None),Times.Once);
@@ -104,7 +104,7 @@ public class SignInUseCaseShould
         _passwordManagerSetup.Returns(true);
         _symmetricEncryptorSetup.ReturnsAsync(expectedToken);
 
-        var (identity,token) = await _sut.Execute(command, CancellationToken.None);
+        var (identity,token) = await _sut.Handle(command, CancellationToken.None);
 
         identity.Should().NotBeNull();
         identity.UserId.Should().Be(userId);
@@ -122,7 +122,7 @@ public class SignInUseCaseShould
         _findUserSetup.ReturnsAsync(new RecognizeUser() { UserId = userId });
         _passwordManagerSetup.Returns(true);
 
-        await _sut.Execute(new SignInCommand("Login", "1111"), CancellationToken.None);
+        await _sut.Handle(new SignInCommand("Login", "1111"), CancellationToken.None);
         
         _symmetricEncryptor.Verify(s=>
             s.Encrypt("db96d4b9-c4ca-4397-9e80-c8ca3fffe36a",It.IsAny<byte[]>(),It.IsAny<CancellationToken>()));

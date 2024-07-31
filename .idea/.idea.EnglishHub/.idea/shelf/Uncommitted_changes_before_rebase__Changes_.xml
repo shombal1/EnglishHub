@@ -1,0 +1,79 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]" date="1721861982978" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.Tests.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.Tests.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Api.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Api.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+  </binary>
+</changelist>

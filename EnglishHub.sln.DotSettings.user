@@ -10,12 +10,8 @@
     &lt;TestId&gt;xUnit::270CC1C1-828B-41D2-9C7F-D1D775D962E8::net8.0::EnglishHub.E2E.AuthenticationEndPointShould&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3991c9fc_002Db6dd_002D4d19_002D87a6_002Da12f4a014001/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ThrowValidationException_WhenUserNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ThrowValidationException_WhenUserNotFound&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ThrowValidationException_WhenPasswordDoesntMatch&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ReturnToken&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3991c9fc_002Db6dd_002D4d19_002D87a6_002Da12f4a014001/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ThrowValidationException_WhenUserNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39b9782a_002D415d_002D4017_002D93f9_002Dee77a467927b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignOutUseCaseShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
@@ -69,7 +65,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9908e41c_002D9116_002D4ace_002Daa23_002D933976b18c55/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnToken" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa3fbb4d_002Dff9d_002D435c_002Da138_002D1a370d2eeea1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SignInAfterSignOn #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa3fbb4d_002Dff9d_002D435c_002Da138_002D1a370d2eeea1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b12ebccb_002D8ea2_002D415c_002Da6b9_002D1269e8985c0f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

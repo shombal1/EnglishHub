@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]" date="1719847305087" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 01.07.2024 18:21 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Test/obj/Debug/net8.0/EnglishHub.Test.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Test/obj/Debug/net8.0/EnglishHub.Test.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]/EnglishHub.Test.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]/EnglishHub.Api.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_01_07_2024_18_21_[Changes]/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+  </binary>
+</changelist>

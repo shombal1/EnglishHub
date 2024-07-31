@@ -3,10 +3,11 @@ using EnglishHub.Domain.Authorization;
 using EnglishHub.Domain.Models;
 using EnglishHub.Domain.UseCases.GetForum;
 using FluentValidation;
+using MediatR;
 
 namespace EnglishHub.Domain.UseCases.CreateTopic;
 
-public class CreateTopicUseCase : ICreateTopicUseCase
+public class CreateTopicUseCase : IRequestHandler<CreateTopicCommand,Topic>
 {
     private readonly IIntentionManager _intentionManager;
     private readonly IValidator<CreateTopicCommand> _validator;
@@ -14,8 +15,11 @@ public class CreateTopicUseCase : ICreateTopicUseCase
     private readonly ICreateTopicStorage _storage;
     private readonly IGetForumStorage _getForumStorage;
 
-    public CreateTopicUseCase(IIdentityProvider identityProvider,
-        ICreateTopicStorage storage, IGetForumStorage getForumStorage, IIntentionManager intentionManager,
+    public CreateTopicUseCase(
+        IIdentityProvider identityProvider,
+        ICreateTopicStorage storage,
+        IGetForumStorage getForumStorage,
+        IIntentionManager intentionManager,
         IValidator<CreateTopicCommand> validator)
     {
         _intentionManager = intentionManager;
@@ -25,7 +29,7 @@ public class CreateTopicUseCase : ICreateTopicUseCase
         _getForumStorage = getForumStorage;
     }
 
-    public async Task<Topic> Execute(CreateTopicCommand command,CancellationToken cancellationToken)
+    public async Task<Topic> Handle(CreateTopicCommand command,CancellationToken cancellationToken)
     {
         await _validator.ValidateAndThrowAsync(command,cancellationToken);
 

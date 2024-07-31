@@ -10,7 +10,7 @@ namespace EnglishHub.Domain.Tests.SignOut;
 
 public class SignOutUseCaseShould
 {
-    private readonly ISignOutUseCase _sut;
+    private readonly SignOutUseCase _sut;
 
     private readonly Mock<ISignOutStorage> _storage;
 
@@ -41,7 +41,7 @@ public class SignOutUseCaseShould
         _isAllowedSetup.Returns(false);
         
         await _sut.Invoking(s =>
-            s.Execute(CancellationToken.None)).Should().ThrowAsync<IntentionManagerException>();
+            s.Handle(new SignOutCommand(),CancellationToken.None)).Should().ThrowAsync<IntentionManagerException>();
     }
 
     [Fact]
@@ -52,7 +52,7 @@ public class SignOutUseCaseShould
         _currentIdentitySetup.Returns(new User(Guid.Empty, sessionId));
         _removeSessionSetup.Returns(Task.CompletedTask);
 
-        await _sut.Execute(CancellationToken.None);
+        await _sut.Handle(new SignOutCommand(),CancellationToken.None);
 
         _storage.Verify(s =>
             s.RemoveSession(sessionId, It.IsAny<CancellationToken>()), Times.Once);

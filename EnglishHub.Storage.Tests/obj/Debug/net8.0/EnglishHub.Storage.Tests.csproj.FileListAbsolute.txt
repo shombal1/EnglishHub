@@ -130,3 +130,5 @@ D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\o
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\obj\Debug\net8.0\EnglishHub.Storage.Tests.pdb
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\obj\Debug\net8.0\EnglishHub.Storage.Tests.genruntimeconfig.cache
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\obj\Debug\net8.0\ref\EnglishHub.Storage.Tests.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\bin\Debug\net8.0\MediatR.dll
+D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Storage.Tests\bin\Debug\net8.0\MediatR.Contracts.dll

@@ -1,4 +1,5 @@
 using EnglishHub.Domain.Models;
+using EnglishHub.Domain.monitoring;
 using EnglishHub.Domain.UseCases.GetForum;
 using FluentAssertions;
 using Moq;
@@ -8,7 +9,7 @@ namespace EnglishHub.Domain.Tests.GetForum;
 
 public class GetForumUseCaseShould
 {
-    public readonly IGetForumUseCase sut;
+    public readonly GetForumUseCase sut;
     private readonly ISetup<IGetForumStorage,Task<IEnumerable<Forum>>> _getForumStorageSetup;
     
     
@@ -26,7 +27,7 @@ public class GetForumUseCaseShould
         var expectedResources = new Forum[] { new() };
         _getForumStorageSetup.ReturnsAsync(expectedResources);
 
-        var actual = await sut.GetForums(CancellationToken.None);
+        var actual = await sut.Handle(new GetForumQuery(),CancellationToken.None);
 
         actual.Should().BeSameAs(expectedResources);
     }

@@ -1,0 +1,1154 @@
+<changelist name="Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]" date="1721860550852" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 25.07.2024 1:35 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Testcontainers.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/refint/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/refint/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/AutoMapper.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishH.986E7CA7.Up2Date" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/ref/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/ref/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/testhost.exe" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.pdb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.assets.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CoreUtilities.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.assets.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/refint/EnglishHub.Api.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/refint/EnglishHub.Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/FluentAssertions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.runner.utility.netcoreapp10.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Docker.DotNet.X509.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.assets.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.E2E.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.E2E.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/refint/EnglishHub.Domain.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/ref/EnglishHub.Storage.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/ref/EnglishHub.E2E.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/ref/EnglishHub.E2E.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/refint/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/refint/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ICSharpCode.SharpZipLib.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishH.11F147FB.Up2Date" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Docker.DotNet.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Newtonsoft.Json.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/ref/EnglishHub.Api.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/ref/EnglishHub.Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.Tests.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.Tests.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.Tests.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.assets.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.assert.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget3.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.exe" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/refint/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/refint/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.GeneratedMSBuildEditorConfig.editorconfig" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/refint/EnglishHub.Storage.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/ref/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/ref/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/refint/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/refint/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Api.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_EnglishHub.Storage.Tests" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.execution.dotnet.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Renci.SshNet.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.Tests.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.core.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Storage.Tests.pdb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Api.exe" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/bin/Debug/net8.0/EnglishHub.Api.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api1.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/testhost.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/SshNet.Security.Cryptography.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/obj/Debug/net8.0/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.assets.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/EnglishHub.Api.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Api.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/ref/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/ref/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Storage.DependencyInjection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.DependencyInjection4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.pdb" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/rider.project.restore.info" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Npgsql.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget4.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/FluentValidation.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/Debug/net8.0/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Storage.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/obj/Debug/net8.0/EnglishHub.Storage.Tests.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/refint/EnglishHub.E2E.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/refint/EnglishHub.E2E.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Testcontainers.PostgreSql.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/xunit.runner.reporters.netcoreapp10.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.E2E.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.E2E.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain5.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/ref/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/ref/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.Tests.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.Tests.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.Tests/bin/Debug/net8.0/EnglishHub.Domain.Tests.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.Tests.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Storage.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget5.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/obj/Debug/net8.0/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.DependencyInjection.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Api/obj/Debug/net8.0/apphost.exe" />
+    <option name="AFTER_PATH" value="EnglishHub.Api/obj/Debug/net8.0/apphost.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/apphost.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/EnglishHub.Storage.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.E2E/obj/Debug/net8.0/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.E2E.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/ref/EnglishHub.Domain.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain/obj/Debug/net8.0/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="AFTER_PATH" value="EnglishHub.Domain.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain8.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/NuGet.Frameworks.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Domain.Tests/obj/Debug/net8.0/EnglishHub.Domain.Tests.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.Utilities.dll" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage.DependencyInjection/bin/Debug/net8.0/EnglishHub.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/EnglishHub.Domain6.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="EnglishHub.Storage/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="EnglishHub.Storage/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.EnglishHub/.idea/shelf/Uncommitted_changes_before_Update_at_25_07_2024_1_35_[Changes]/project.nuget6.cache" />
+  </binary>
+</changelist>

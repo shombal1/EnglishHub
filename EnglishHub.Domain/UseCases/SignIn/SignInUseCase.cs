@@ -1,11 +1,12 @@
 using EnglishHub.Domain.Authentication;
 using FluentValidation;
 using FluentValidation.Results;
+using MediatR;
 using Microsoft.Extensions.Options;
 
 namespace EnglishHub.Domain.UseCases.SignIn;
 
-public class SignInUseCase: ISignInUseCase
+public class SignInUseCase: IRequestHandler<SignInCommand,(IIdentity identity,string token)>
 {
     private readonly IValidator<SignInCommand> _validator;
     private readonly ISignInStorage _storage;
@@ -27,7 +28,7 @@ public class SignInUseCase: ISignInUseCase
         _configuration = options.Value;
     }
     
-    public async Task<(IIdentity identity,string token)> Execute(SignInCommand command, CancellationToken cancellationToken)
+    public async Task<(IIdentity identity,string token)> Handle(SignInCommand command, CancellationToken cancellationToken)
     {
         await _validator.ValidateAndThrowAsync(command, cancellationToken);
         

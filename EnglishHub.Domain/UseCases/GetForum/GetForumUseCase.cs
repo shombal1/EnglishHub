@@ -1,18 +1,21 @@
 using EnglishHub.Domain.Models;
+using EnglishHub.Domain.monitoring;
+using MediatR;
 
 namespace EnglishHub.Domain.UseCases.GetForum;
 
-public class GetForumUseCase : IGetForumUseCase
+public class GetForumUseCase : IRequestHandler<GetForumQuery,IEnumerable<Forum>>
 {
     private readonly IGetForumStorage _getForumStorage;
 
-    public GetForumUseCase(IGetForumStorage getForumStorage)
+    public GetForumUseCase(
+        IGetForumStorage getForumStorage)
     {
         _getForumStorage = getForumStorage;
     }
     
-    public Task<IEnumerable<Forum>> GetForums(CancellationToken cancellationToken)
+    public async Task<IEnumerable<Forum>> Handle(GetForumQuery query,CancellationToken cancellationToken)
     {
-        return _getForumStorage.GetForums(cancellationToken);
+        return await _getForumStorage.GetForums(cancellationToken);
     }
 }
