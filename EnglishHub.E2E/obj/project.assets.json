@@ -252,15 +252,6 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
-      "Microsoft.CSharp/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/8.0.4": {
         "type": "package",
         "dependencies": {
@@ -1393,24 +1384,6 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
-      "OpenSearch.Net/1.6.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Buffers": "4.5.1",
-          "System.Diagnostics.DiagnosticSource": "6.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.1/OpenSearch.Net.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/OpenSearch.Net.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "OpenTelemetry/1.9.0": {
         "type": "package",
         "dependencies": {
@@ -1816,22 +1789,6 @@
           }
         }
       },
-      "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-        "type": "package",
-        "dependencies": {
-          "Serilog": "3.1.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Serilog.Settings.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1898,40 +1855,19 @@
           }
         }
       },
-      "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
+      "Serilog.Sinks.Grafana.Loki/8.3.0": {
         "type": "package",
         "dependencies": {
-          "OpenSearch.Net": "1.6.0",
-          "Serilog": "3.1.1",
-          "Serilog.Formatting.Compact": "2.0.0",
-          "Serilog.Formatting.OpenSearch": "1.1.0-alpha1",
-          "Serilog.Sinks.File": "5.0.0",
-          "Serilog.Sinks.PeriodicBatching": "3.1.0",
-          "System.Diagnostics.DiagnosticSource": "8.0.0"
+          "Serilog": "2.12.0",
+          "System.Text.Json": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll": {
+          "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Serilog.Sinks.PeriodicBatching/3.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Serilog": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
+          "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll": {
             "related": ".xml"
           }
         }
@@ -3344,7 +3280,7 @@
           "Serilog": "4.0.0",
           "Serilog.AspNetCore": "8.0.2-dev-00338",
           "Serilog.Sinks.Console": "6.0.0",
-          "Serilog.Sinks.OpenSearch": "1.1.0-alpha2",
+          "Serilog.Sinks.Grafana.Loki": "8.3.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "compile": {
@@ -3823,75 +3759,6 @@
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.17.8.0.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
-      ]
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "type": "package",
-      "path": "microsoft.csharp/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/Microsoft.CSharp.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.3/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/uap10.0.16299/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
-        "microsoft.csharp.nuspec",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/Microsoft.CSharp.dll",
-        "ref/netcore50/Microsoft.CSharp.xml",
-        "ref/netcore50/de/Microsoft.CSharp.xml",
-        "ref/netcore50/es/Microsoft.CSharp.xml",
-        "ref/netcore50/fr/Microsoft.CSharp.xml",
-        "ref/netcore50/it/Microsoft.CSharp.xml",
-        "ref/netcore50/ja/Microsoft.CSharp.xml",
-        "ref/netcore50/ko/Microsoft.CSharp.xml",
-        "ref/netcore50/ru/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/Microsoft.CSharp.dll",
-        "ref/netstandard1.0/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
-        "ref/netstandard2.0/Microsoft.CSharp.dll",
-        "ref/netstandard2.0/Microsoft.CSharp.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/uap10.0.16299/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Microsoft.EntityFrameworkCore/8.0.4": {
@@ -5534,28 +5401,6 @@
         "nuget.frameworks.nuspec"
       ]
     },
-    "OpenSearch.Net/1.6.0": {
-      "sha512": "cNwI5JsUn9dj5Eg5OphcjHJXT4LiIUR2TUcmeWAJHA2oxorTZh7F7BFAE5ApEo9O8j+qVgtTlYwF1PSe3j/6Mw==",
-      "type": "package",
-      "path": "opensearch.net/1.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/OpenSearch.Net.dll",
-        "lib/net461/OpenSearch.Net.pdb",
-        "lib/net461/OpenSearch.Net.xml",
-        "lib/netstandard2.0/OpenSearch.Net.dll",
-        "lib/netstandard2.0/OpenSearch.Net.pdb",
-        "lib/netstandard2.0/OpenSearch.Net.xml",
-        "lib/netstandard2.1/OpenSearch.Net.dll",
-        "lib/netstandard2.1/OpenSearch.Net.pdb",
-        "lib/netstandard2.1/OpenSearch.Net.xml",
-        "license.txt",
-        "nuget-icon.png",
-        "opensearch.net.1.6.0.nupkg.sha512",
-        "opensearch.net.nuspec"
-      ]
-    },
     "OpenTelemetry/1.9.0": {
       "sha512": "7scS6BUhwYeSXEDGhCxMSezmvyCoDU5kFQbmfyW9iVvVTcWhec+1KIN33/LOCdBXRkzt2y7+g03mkdAB0XZ9Fw==",
       "type": "package",
@@ -6065,21 +5910,6 @@
         "serilog.formatting.compact.nuspec"
       ]
     },
-    "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-      "sha512": "wLni/DoSPgj+2p47X5uRyAo0YlN/gP/ZgQw/I0pKWRcYEVqP+0qLSE6n+49DYHCXL9pLsylRQ5eblrnoeImpNw==",
-      "type": "package",
-      "path": "serilog.formatting.opensearch/1.1.0-alpha1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll",
-        "lib/netstandard2.0/Serilog.Formatting.OpenSearch.xml",
-        "serilog-sink-nuget.png",
-        "serilog.formatting.opensearch.1.1.0-alpha1.nupkg.sha512",
-        "serilog.formatting.opensearch.nuspec"
-      ]
-    },
     "Serilog.Settings.Configuration/8.0.0": {
       "sha512": "nR0iL5HwKj5v6ULo3/zpP8NMcq9E2pxYA6XKTSWCbugVs4YqPyvaqaKOY+OMpPivKp7zMEpax2UKHnDodbRB0Q==",
       "type": "package",
@@ -6175,41 +6005,26 @@
         "serilog.sinks.file.nuspec"
       ]
     },
-    "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
-      "sha512": "JsgSNq8u3PyqoeekEx1evzxw9/zJVa0QA12HlcQj8smlZ0FVjfCYfqaISV8sKR+bHvqsvs5od0Grp/abe4SbWg==",
+    "Serilog.Sinks.Grafana.Loki/8.3.0": {
+      "sha512": "bHo/WvvtClr57onuYLz3h7CzTKe9z0kvLfzDJftzjkSo4jTyUrZH5rn4YXj/AsilKN4flJ8Psezza7mmWDELcA==",
       "type": "package",
-      "path": "serilog.sinks.opensearch/1.1.0-alpha2",
+      "path": "serilog.sinks.grafana.loki/8.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE",
         "README.md",
-        "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll",
-        "lib/netstandard2.0/Serilog.Sinks.OpenSearch.xml",
+        "lib/net5.0/Serilog.Sinks.Grafana.Loki.dll",
+        "lib/net5.0/Serilog.Sinks.Grafana.Loki.xml",
+        "lib/net6.0/Serilog.Sinks.Grafana.Loki.dll",
+        "lib/net6.0/Serilog.Sinks.Grafana.Loki.xml",
+        "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll",
+        "lib/net7.0/Serilog.Sinks.Grafana.Loki.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Grafana.Loki.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Grafana.Loki.xml",
         "serilog-sink-nuget.png",
-        "serilog.sinks.opensearch.1.1.0-alpha2.nupkg.sha512",
-        "serilog.sinks.opensearch.nuspec"
-      ]
-    },
-    "Serilog.Sinks.PeriodicBatching/3.1.0": {
-      "sha512": "NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
-      "type": "package",
-      "path": "serilog.sinks.periodicbatching/3.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net45/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/net45/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/netstandard2.0/Serilog.Sinks.PeriodicBatching.xml",
-        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll",
-        "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.xml",
-        "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512",
-        "serilog.sinks.periodicbatching.nuspec"
+        "serilog.sinks.grafana.loki.8.3.0.nupkg.sha512",
+        "serilog.sinks.grafana.loki.nuspec"
       ]
     },
     "SharpZipLib/1.4.2": {

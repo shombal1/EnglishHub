@@ -1,0 +1,8 @@
+.idea/
+*.Tests/
+bin/
+obj/
+EnglishHub.E2E/
+docker-compose.yml
+Dockerfile
+prometheus.yml

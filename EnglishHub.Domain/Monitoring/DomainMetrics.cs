@@ -1,12 +1,23 @@
 using System.Collections.Concurrent;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 
 namespace EnglishHub.Domain.monitoring;
 
 public class DomainMetrics
 {
-    private readonly Meter _meter = new Meter("English.Hub.Domain");
+    public const string DomainActivityName = "EnglishHub.Domain";
+    public const string DomainMeterName = "EnglishHub.Domain";
+    
+    public readonly ActivitySource ActivitySource = new(DomainActivityName);
+    
+    private readonly Meter _meter;
     private readonly ConcurrentDictionary<string, Counter<long>> _counters=new();
+
+    public DomainMetrics(IMeterFactory meterFactory)
+    {
+        _meter = meterFactory.Create(DomainMeterName);
+    }
     
     public void IncrementCount(string name, long value, ReadOnlySpan<KeyValuePair<string, object?>> tags)
     {

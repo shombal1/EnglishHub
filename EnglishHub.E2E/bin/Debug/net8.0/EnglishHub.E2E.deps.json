@@ -132,7 +132,7 @@
           "Microsoft.AspNetCore.StaticFiles": "8.0.0.0",
           "Microsoft.AspNetCore.WebSockets": "8.0.0.0",
           "Microsoft.AspNetCore.WebUtilities": "8.0.0.0",
-          "Microsoft.CSharp.Reference": "8.0.0.0",
+          "Microsoft.CSharp": "8.0.0.0",
           "Microsoft.Extensions.Caching.Abstractions.Reference": "8.0.0.0",
           "Microsoft.Extensions.Caching.Memory.Reference": "8.0.0.0",
           "Microsoft.Extensions.Configuration.Abstractions.Reference": "8.0.0.0",
@@ -245,7 +245,7 @@
           "System.Linq.Expressions.Reference": "8.0.0.0",
           "System.Linq.Parallel": "8.0.0.0",
           "System.Linq.Queryable": "8.0.0.0",
-          "System.Memory": "8.0.0.0",
+          "System.Memory.Reference": "8.0.0.0",
           "System.Net": "4.0.0.0",
           "System.Net.Http.Reference": "8.0.0.0",
           "System.Net.Http.Json": "8.0.0.0",
@@ -439,6 +439,60 @@
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
+      "Google.Protobuf/3.22.5": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.22.5.0",
+            "fileVersion": "3.22.5.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {}
+        }
+      },
+      "Grpc.Core.Api/2.52.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {}
+        }
+      },
+      "Grpc.Net.Client/2.52.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.52.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Grpc.Net.Client.dll": {}
+        }
+      },
+      "Grpc.Net.Common/2.52.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.52.0"
+        },
+        "runtime": {
+          "lib/net7.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.52.0.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Grpc.Net.Common.dll": {}
+        }
+      },
       "MediatR/12.4.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -506,7 +560,6 @@
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/8.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4",
@@ -577,9 +630,15 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "Microsoft.Extensions.Configuration.Binder/8.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58001"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
@@ -682,7 +741,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.1",
           "Microsoft.Extensions.Configuration.CommandLine": "8.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
@@ -729,7 +788,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.5.24306.7",
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
@@ -782,7 +841,7 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.5.24306.7",
           "Microsoft.Extensions.Options": "8.0.0",
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -1178,22 +1237,6 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
-      "OpenSearch.Net/1.6.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Buffers": "4.5.1",
-          "System.Diagnostics.DiagnosticSource": "8.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/OpenSearch.Net.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/OpenSearch.Net.dll": {}
-        }
-      },
       "OpenTelemetry/1.9.0": {
         "dependencies": {
           "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
@@ -1239,6 +1282,23 @@
           "lib/net8.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {}
         }
       },
+      "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.9.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.22.5",
+          "Grpc.Net.Client": "2.52.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.1",
+          "OpenTelemetry": "1.9.0"
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.9.0.1312"
+          }
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll": {}
+        }
+      },
       "OpenTelemetry.Exporter.Prometheus.AspNetCore/1.9.0-beta.2": {
         "dependencies": {
           "OpenTelemetry": "1.9.0"
@@ -1280,6 +1340,21 @@
         },
         "compile": {
           "lib/net8.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {}
+        }
+      },
+      "OpenTelemetry.Instrumentation.EntityFrameworkCore/1.0.0-beta.12": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0",
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTelemetry.Instrumentation.EntityFrameworkCore.dll": {
+            "assemblyVersion": "1.0.0.48",
+            "fileVersion": "1.0.0.48"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenTelemetry.Instrumentation.EntityFrameworkCore.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -1409,23 +1484,9 @@
           "lib/net7.0/Serilog.Formatting.Compact.dll": {}
         }
       },
-      "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-        "dependencies": {
-          "Serilog": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll": {}
-        }
-      },
       "Serilog.Settings.Configuration/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.1",
           "Microsoft.Extensions.DependencyModel": "8.0.0",
           "Serilog": "4.0.0"
         },
@@ -1481,38 +1542,19 @@
           "lib/net5.0/Serilog.Sinks.File.dll": {}
         }
       },
-      "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
+      "Serilog.Sinks.Grafana.Loki/8.3.0": {
         "dependencies": {
-          "OpenSearch.Net": "1.6.0",
           "Serilog": "4.0.0",
-          "Serilog.Formatting.Compact": "2.0.0",
-          "Serilog.Formatting.OpenSearch": "1.1.0-alpha1",
-          "Serilog.Sinks.File": "5.0.0",
-          "Serilog.Sinks.PeriodicBatching": "3.1.0",
-          "System.Diagnostics.DiagnosticSource": "8.0.0"
+          "System.Text.Json": "8.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.0.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll": {}
-        }
-      },
-      "Serilog.Sinks.PeriodicBatching/3.1.0": {
-        "dependencies": {
-          "Serilog": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.1.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {}
+          "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll": {}
         }
       },
       "SharpZipLib/1.4.2": {
@@ -1785,6 +1827,7 @@
           "System.Threading": "4.3.0"
         }
       },
+      "System.Memory/4.5.3": {},
       "System.Net.Http/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -2287,13 +2330,15 @@
           "FluentValidation": "11.9.2",
           "FluentValidation.DependencyInjectionExtensions": "11.9.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
+          "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.9.0",
           "OpenTelemetry.Exporter.Prometheus.AspNetCore": "1.9.0-beta.2",
           "OpenTelemetry.Extensions.Hosting": "1.9.0",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.9.0",
+          "OpenTelemetry.Instrumentation.EntityFrameworkCore": "1.0.0-beta.12",
           "Serilog": "4.0.0",
           "Serilog.AspNetCore": "8.0.2-dev-00338",
           "Serilog.Sinks.Console": "6.0.0",
-          "Serilog.Sinks.OpenSearch": "1.1.0-alpha2",
+          "Serilog.Sinks.Grafana.Loki": "8.3.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -2875,7 +2920,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.CSharp.Reference/8.0.0.0": {
+      "Microsoft.CSharp/8.0.0.0": {
         "compile": {
           "Microsoft.CSharp.dll": {}
         },
@@ -3553,7 +3598,7 @@
         },
         "compileOnly": true
       },
-      "System.Memory/8.0.0.0": {
+      "System.Memory.Reference/8.0.0.0": {
         "compile": {
           "System.Memory.dll": {}
         },
@@ -4216,6 +4261,34 @@
       "path": "fluentvalidation.dependencyinjectionextensions/11.9.2",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512"
     },
+    "Google.Protobuf/3.22.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tTMtDZPbLxJew8pk7NBdqhLqC4OipfkZdwPuCEUNr2AoDo1siUGcxFqJK0wDewTL8ge5Cjrb16CToMPxBUHMGA==",
+      "path": "google.protobuf/3.22.5",
+      "hashPath": "google.protobuf.3.22.5.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SQiPyBczG4vKPmI6Fd+O58GcxxDSFr6nfRAJuBDUNj+PgdokhjWJvZE/La1c09AkL2FVm/jrDloG89nkzmVF7A==",
+      "path": "grpc.core.api/2.52.0",
+      "hashPath": "grpc.core.api.2.52.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hWVH9g/Nnjz40ni//2S8UIOyEmhueQREoZIkD0zKHEPqLxXcNlbp4eebXIOicZtkwDSx0TFz9NpkbecEDn6rBw==",
+      "path": "grpc.net.client/2.52.0",
+      "hashPath": "grpc.net.client.2.52.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.52.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-di9qzpdx525IxumZdYmu6sG2y/gXJyYeZ1ruFUzB9BJ1nj4kU1/dTAioNCMt1VLRvNVDqh8S8B1oBdKhHJ4xRg==",
+      "path": "grpc.net.common/2.52.0",
+      "hashPath": "grpc.net.common.2.52.0.nupkg.sha512"
+    },
     "MediatR/12.4.0": {
       "type": "package",
       "serviceable": true,
@@ -4250,13 +4323,6 @@
       "sha512": "sha512-KC8SXWbGIdoFVdlxKk9WHccm0llm9HypcHMLUUFabRiTS3SO2fQXNZfdiF3qkEdTJhbRrxhdRxjL4jbtwPq4Ew==",
       "path": "microsoft.codecoverage/17.8.0",
       "hashPath": "microsoft.codecoverage.17.8.0.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.4": {
       "type": "package",
@@ -4321,12 +4387,12 @@
       "path": "microsoft.extensions.configuration.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+    "Microsoft.Extensions.Configuration.Binder/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
-      "path": "microsoft.extensions.configuration.binder/8.0.0",
-      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+      "sha512": "sha512-2UKFJnLiBt7Od6nCnTqP9rTIUNhzmn9Hv1l2FchyKbz8xieB9ULwZTbQZMw+M24Qw3F5dzzH1U9PPleN0LNLOQ==",
+      "path": "microsoft.extensions.configuration.binder/8.0.1",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
       "type": "package",
@@ -4587,13 +4653,6 @@
       "path": "nuget.frameworks/6.5.0",
       "hashPath": "nuget.frameworks.6.5.0.nupkg.sha512"
     },
-    "OpenSearch.Net/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cNwI5JsUn9dj5Eg5OphcjHJXT4LiIUR2TUcmeWAJHA2oxorTZh7F7BFAE5ApEo9O8j+qVgtTlYwF1PSe3j/6Mw==",
-      "path": "opensearch.net/1.6.0",
-      "hashPath": "opensearch.net.1.6.0.nupkg.sha512"
-    },
     "OpenTelemetry/1.9.0": {
       "type": "package",
       "serviceable": true,
@@ -4615,6 +4674,13 @@
       "path": "opentelemetry.api.providerbuilderextensions/1.9.0",
       "hashPath": "opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512"
     },
+    "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qzFOP3V2eYIVbug3U4BJzzidHe9JhAJ42WZ/H8pUp/45Ry3MQQg/+e/ZieClJcxKnpbkXi7dUq1rpvuNp+yBYA==",
+      "path": "opentelemetry.exporter.opentelemetryprotocol/1.9.0",
+      "hashPath": "opentelemetry.exporter.opentelemetryprotocol.1.9.0.nupkg.sha512"
+    },
     "OpenTelemetry.Exporter.Prometheus.AspNetCore/1.9.0-beta.2": {
       "type": "package",
       "serviceable": true,
@@ -4635,6 +4701,13 @@
       "sha512": "sha512-x4HuWBw1rbWZUh5j8/GpXz3xa7JnrTuKne+ACmBqvcoO/rNGkG7HayRruwoQ7gf52xpMtRGr4gxlhLW8eU0EiQ==",
       "path": "opentelemetry.instrumentation.aspnetcore/1.9.0",
       "hashPath": "opentelemetry.instrumentation.aspnetcore.1.9.0.nupkg.sha512"
+    },
+    "OpenTelemetry.Instrumentation.EntityFrameworkCore/1.0.0-beta.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L/wZDi3MXyL2OsaxykjNovTgNhGq0kVtWNcCoqzOctxYMnCUGAQHYA9XwZGpad1vnnFxHOcN3oW4qFAQuYpKUA==",
+      "path": "opentelemetry.instrumentation.entityframeworkcore/1.0.0-beta.12",
+      "hashPath": "opentelemetry.instrumentation.entityframeworkcore.1.0.0-beta.12.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -4783,13 +4856,6 @@
       "path": "serilog.formatting.compact/2.0.0",
       "hashPath": "serilog.formatting.compact.2.0.0.nupkg.sha512"
     },
-    "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wLni/DoSPgj+2p47X5uRyAo0YlN/gP/ZgQw/I0pKWRcYEVqP+0qLSE6n+49DYHCXL9pLsylRQ5eblrnoeImpNw==",
-      "path": "serilog.formatting.opensearch/1.1.0-alpha1",
-      "hashPath": "serilog.formatting.opensearch.1.1.0-alpha1.nupkg.sha512"
-    },
     "Serilog.Settings.Configuration/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -4818,19 +4884,12 @@
       "path": "serilog.sinks.file/5.0.0",
       "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
     },
-    "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
+    "Serilog.Sinks.Grafana.Loki/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JsgSNq8u3PyqoeekEx1evzxw9/zJVa0QA12HlcQj8smlZ0FVjfCYfqaISV8sKR+bHvqsvs5od0Grp/abe4SbWg==",
-      "path": "serilog.sinks.opensearch/1.1.0-alpha2",
-      "hashPath": "serilog.sinks.opensearch.1.1.0-alpha2.nupkg.sha512"
-    },
-    "Serilog.Sinks.PeriodicBatching/3.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
-      "path": "serilog.sinks.periodicbatching/3.1.0",
-      "hashPath": "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512"
+      "sha512": "sha512-bHo/WvvtClr57onuYLz3h7CzTKe9z0kvLfzDJftzjkSo4jTyUrZH5rn4YXj/AsilKN4flJ8Psezza7mmWDELcA==",
+      "path": "serilog.sinks.grafana.loki/8.3.0",
+      "hashPath": "serilog.sinks.grafana.loki.8.3.0.nupkg.sha512"
     },
     "SharpZipLib/1.4.2": {
       "type": "package",
@@ -5034,6 +5093,13 @@
       "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
       "path": "system.linq.expressions/4.3.0",
       "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "System.Net.Http/4.3.0": {
       "type": "package",
@@ -5826,7 +5892,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.CSharp.Reference/8.0.0.0": {
+    "Microsoft.CSharp/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6391,7 +6457,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Memory/8.0.0.0": {
+    "System.Memory.Reference/8.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

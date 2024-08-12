@@ -1,6 +1,5 @@
 version: '3.9'
 
-
 networks:
   default:
     name: 'english_hub'
@@ -24,29 +23,12 @@ services:
       POSTGRES_USER: 'shombal'
       POSTGRES_DB: 'english_hub'
   
-  opensearch:
-    image: 'opensearchproject/opensearch:latest'
-    container_name: 'opensearch'
+  loki:
+    container_name: 'loki'
+    image: 'grafana/loki:2.9.2'
     ports:
-      - '9200:9200'
-      - '9600:9600'
-    environment:
-      discovery.type: 'single-node'
-      plugins.security.disabled: 'true'
-      OPENSEARCH_INITIAL_ADMIN_PASSWORD: 'OJxZer7nM1'
-    volumes:
-      - logs:/usr/share/opensearch/data
-  
-  opensearch-dashboards:
-    image: 'opensearchproject/opensearch-dashboards:latest'
-    container_name: 'opensearch_dashboards'
-    ports:
-      - '5601:5601'
-    expose:
-      - "5601" 
-    environment:
-      OPENSEARCH_HOSTS: '["http://opensearch:9200"]'
-      DISABLE_SECURITY_DASHBOARDS_PLUGIN: 'true'
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
       
   prometheus:
     image: 'prom/prometheus'
@@ -87,3 +69,17 @@ services:
       - '14268:14268' 
       - '14269:14269' 
       - '9411:9411' 
+        
+  #api:
+  #  build:
+  #    context: ./..
+  #    #dockerfile: docker/Dockerfile
+  #  #image: 'english_hub:local'
+  #  container_name: 'english_hub'
+  #  ports:
+  #    - '8080:8080'
+  #  environment:
+  #    ASPNET_URLS: 'http://0.0.0.0:8080'
+  #    ConnectionStrings__EnglishHubDbContext: 'Host=postgres;User Id=shombal;Password=1111;Database=english_hub;Port=5432'
+  #    ConnectionStrings__Logs: 'http://loki:3100'
+  #    ConnectionStrings__Tracing: 'http://jaeger:4318/v1/traces'

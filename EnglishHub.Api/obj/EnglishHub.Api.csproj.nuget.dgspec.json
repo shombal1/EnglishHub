@@ -112,9 +112,9 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Serilog.Sinks.OpenSearch": {
+            "Serilog.Sinks.Grafana.Loki": {
               "target": "Package",
-              "version": "[1.1.0-alpha2, )"
+              "version": "[8.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

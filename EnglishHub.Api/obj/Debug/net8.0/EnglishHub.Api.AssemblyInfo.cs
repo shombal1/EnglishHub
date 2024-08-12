@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnglishHub.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ad98e04061c722257e4e7b8bd2276ce552b8e05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a037ab02f581ee2e1ff2d7e803b844a4d96f85")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnglishHub.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnglishHub.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,7 +24,7 @@
           "Serilog": "4.0.0",
           "Serilog.AspNetCore": "8.0.2-dev-00338",
           "Serilog.Sinks.Console": "6.0.0",
-          "Serilog.Sinks.OpenSearch": "1.1.0-alpha2",
+          "Serilog.Sinks.Grafana.Loki": "8.3.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -361,7 +361,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.EntityFrameworkCore/8.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4",
@@ -579,19 +578,6 @@
           }
         }
       },
-      "OpenSearch.Net/1.6.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Buffers": "4.5.1",
-          "System.Diagnostics.DiagnosticSource": "8.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/OpenSearch.Net.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.0.0"
-          }
-        }
-      },
       "OpenTelemetry/1.9.0": {
         "dependencies": {
           "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
@@ -752,17 +738,6 @@
           }
         }
       },
-      "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-        "dependencies": {
-          "Serilog": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Serilog.Formatting.OpenSearch.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
       "Serilog.Settings.Configuration/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "8.0.1",
@@ -809,31 +784,15 @@
           }
         }
       },
-      "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
+      "Serilog.Sinks.Grafana.Loki/8.3.0": {
         "dependencies": {
-          "OpenSearch.Net": "1.6.0",
           "Serilog": "4.0.0",
-          "Serilog.Formatting.Compact": "2.0.0",
-          "Serilog.Formatting.OpenSearch": "1.1.0-alpha1",
-          "Serilog.Sinks.File": "5.0.0",
-          "Serilog.Sinks.PeriodicBatching": "3.1.0",
-          "System.Diagnostics.DiagnosticSource": "8.0.0"
+          "System.Text.Json": "8.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Serilog.Sinks.OpenSearch.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "Serilog.Sinks.PeriodicBatching/3.1.0": {
-        "dependencies": {
-          "Serilog": "4.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Serilog.Sinks.PeriodicBatching.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.1.0.0"
+          "lib/net7.0/Serilog.Sinks.Grafana.Loki.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.0.0"
           }
         }
       },
@@ -875,7 +834,6 @@
           }
         }
       },
-      "System.Buffers/4.5.1": {},
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -1134,13 +1092,6 @@
       "path": "microsoft.codeanalysis.workspaces.common/4.5.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore/8.0.4": {
       "type": "package",
       "serviceable": true,
@@ -1330,13 +1281,6 @@
       "path": "npgsql.entityframeworkcore.postgresql/8.0.2",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512"
     },
-    "OpenSearch.Net/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cNwI5JsUn9dj5Eg5OphcjHJXT4LiIUR2TUcmeWAJHA2oxorTZh7F7BFAE5ApEo9O8j+qVgtTlYwF1PSe3j/6Mw==",
-      "path": "opensearch.net/1.6.0",
-      "hashPath": "opensearch.net.1.6.0.nupkg.sha512"
-    },
     "OpenTelemetry/1.9.0": {
       "type": "package",
       "serviceable": true,
@@ -1428,13 +1372,6 @@
       "path": "serilog.formatting.compact/2.0.0",
       "hashPath": "serilog.formatting.compact.2.0.0.nupkg.sha512"
     },
-    "Serilog.Formatting.OpenSearch/1.1.0-alpha1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wLni/DoSPgj+2p47X5uRyAo0YlN/gP/ZgQw/I0pKWRcYEVqP+0qLSE6n+49DYHCXL9pLsylRQ5eblrnoeImpNw==",
-      "path": "serilog.formatting.opensearch/1.1.0-alpha1",
-      "hashPath": "serilog.formatting.opensearch.1.1.0-alpha1.nupkg.sha512"
-    },
     "Serilog.Settings.Configuration/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1463,19 +1400,12 @@
       "path": "serilog.sinks.file/5.0.0",
       "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
     },
-    "Serilog.Sinks.OpenSearch/1.1.0-alpha2": {
+    "Serilog.Sinks.Grafana.Loki/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JsgSNq8u3PyqoeekEx1evzxw9/zJVa0QA12HlcQj8smlZ0FVjfCYfqaISV8sKR+bHvqsvs5od0Grp/abe4SbWg==",
-      "path": "serilog.sinks.opensearch/1.1.0-alpha2",
-      "hashPath": "serilog.sinks.opensearch.1.1.0-alpha2.nupkg.sha512"
-    },
-    "Serilog.Sinks.PeriodicBatching/3.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NDWR7m3PalVlGEq3rzoktrXikjFMLmpwF0HI4sowo8YDdU+gqPlTHlDQiOGxHfB0sTfjPA9JjA7ctKG9zqjGkw==",
-      "path": "serilog.sinks.periodicbatching/3.1.0",
-      "hashPath": "serilog.sinks.periodicbatching.3.1.0.nupkg.sha512"
+      "sha512": "sha512-bHo/WvvtClr57onuYLz3h7CzTKe9z0kvLfzDJftzjkSo4jTyUrZH5rn4YXj/AsilKN4flJ8Psezza7mmWDELcA==",
+      "path": "serilog.sinks.grafana.loki/8.3.0",
+      "hashPath": "serilog.sinks.grafana.loki.8.3.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
@@ -1504,13 +1434,6 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
-    },
-    "System.Buffers/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
-      "path": "system.buffers/4.5.1",
-      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",
