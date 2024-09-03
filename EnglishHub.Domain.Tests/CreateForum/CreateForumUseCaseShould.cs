@@ -22,7 +22,6 @@ public class CreateForumUseCaseShould
         var validator = new Mock<IValidator<CreateForumCommand>>();
         var intentionManager = new Mock<IIntentionManager>();
         // var identity = new Mock<IIdentity>();
-        var identityProvider = new Mock<IIdentityProvider>();
 
         _intentionIsAllowedSetup = intentionManager.Setup(a => a.IsAllowed(It.IsAny<ForumIntention>()));
         _storageSetup = storage.Setup(s => s.CreateForum(It.IsAny<string>(),It.IsAny<CancellationToken>()));
@@ -33,8 +32,7 @@ public class CreateForumUseCaseShould
         //identityProvider.Setup(e => e.Current).Returns(identity.Object);
 
 
-        _sut = new CreateForumUseCase(storage.Object, validator.Object, intentionManager.Object,
-            identityProvider.Object);
+        _sut = new CreateForumUseCase(storage.Object, validator.Object, intentionManager.Object);
     }
 
     [Fact]

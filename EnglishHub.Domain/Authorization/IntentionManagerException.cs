@@ -1,9 +1,3 @@
 namespace EnglishHub.Domain.Authorization;
 
-public class IntentionManagerException : Exception
-{
-    public IntentionManagerException() : base("Action is not allowed")
-    {
-        
-    }
-}
+public class IntentionManagerException() : Exception("Action is not allowed");

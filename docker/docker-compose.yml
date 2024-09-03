@@ -1,4 +1,3 @@
-version: '3.9'
 
 networks:
   default:
@@ -70,16 +69,16 @@ services:
       - '14269:14269' 
       - '9411:9411' 
         
-  #api:
-  #  build:
-  #    context: ./..
-  #    #dockerfile: docker/Dockerfile
-  #  #image: 'english_hub:local'
-  #  container_name: 'english_hub'
-  #  ports:
-  #    - '8080:8080'
-  #  environment:
-  #    ASPNET_URLS: 'http://0.0.0.0:8080'
-  #    ConnectionStrings__EnglishHubDbContext: 'Host=postgres;User Id=shombal;Password=1111;Database=english_hub;Port=5432'
-  #    ConnectionStrings__Logs: 'http://loki:3100'
-  #    ConnectionStrings__Tracing: 'http://jaeger:4318/v1/traces'
+  api:
+    build:
+      context: ./..
+      dockerfile: docker/Dockerfile
+    #image: 'english_hub:local'
+    container_name: 'english_hub_api'
+    ports:
+      - '8080:8080'
+    environment:
+      ASPNET_URLS: 'http://0.0.0.0:8080'
+      ConnectionStrings__EnglishHubDbContext: 'Host=postgres;User Id=shombal;Password=1111;Database=english_hub;Port=5432'
+      ConnectionStrings__Logs: 'http://loki:3100'
+      ConnectionStrings__Tracing: 'http://jaeger:4318/v1/traces'

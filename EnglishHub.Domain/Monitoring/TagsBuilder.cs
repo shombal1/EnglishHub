@@ -2,7 +2,7 @@ namespace EnglishHub.Domain.monitoring;
 
 public class TagsBuilder
 {
-    private IDictionary<string, object?> _tags = new Dictionary<string, object?>();
+    private readonly IDictionary<string, object?> _tags = new Dictionary<string, object?>();
 
     public TagsBuilder AddSuccess(bool success)
     {

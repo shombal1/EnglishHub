@@ -6,30 +6,18 @@ using MediatR;
 
 namespace EnglishHub.Domain.UseCases.CreateForum;
 
-public class CreateForumUseCase : IRequestHandler<CreateForumCommand,Forum>
+public class CreateForumUseCase(
+    ICreateForumStorage storage,
+    IValidator<CreateForumCommand> validator,
+    IIntentionManager intentionManager)
+    : IRequestHandler<CreateForumCommand, Forum>
 {
-    private readonly ICreateForumStorage _storage;
-    private readonly IValidator<CreateForumCommand> _validator;
-    private readonly IIntentionManager _intentionManager;
-    private readonly IIdentityProvider _identityProvider;
-
-    public CreateForumUseCase(ICreateForumStorage storage,
-        IValidator<CreateForumCommand> validator,
-        IIntentionManager intentionManager,
-        IIdentityProvider identityProvider)
-    {
-        _storage = storage;
-        _validator = validator;
-        _intentionManager = intentionManager;
-        _identityProvider = identityProvider;
-    }
-    
     public async Task<Forum> Handle(CreateForumCommand command,CancellationToken cancellationToken)
     {
-        await _validator.ValidateAndThrowAsync(command,cancellationToken);
+        await validator.ValidateAndThrowAsync(command,cancellationToken);
 
-        _intentionManager.ThrowIfForbidden(ForumIntention.Create);
+        intentionManager.ThrowIfForbidden(ForumIntention.Create);
         
-        return await _storage.CreateForum(command.Title,cancellationToken);
+        return await storage.CreateForum(command.Title,cancellationToken);
     }
 }

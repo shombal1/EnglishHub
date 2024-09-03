@@ -6,14 +6,8 @@ namespace EnglishHub.Domain.Tests.Authentication;
 
 public class TripleDesSymmetricEncryptorDecryptorShould
 {
-    private readonly byte[] _key;
-
+    private readonly byte[] _key=RandomNumberGenerator.GetBytes(24);
     private readonly TripleDesSymmetricEncryptorDecryptor _sut = new TripleDesSymmetricEncryptorDecryptor();
-
-    public TripleDesSymmetricEncryptorDecryptorShould()
-    {
-        _key = RandomNumberGenerator.GetBytes(24);
-    }
 
     [Theory]
     [InlineData("Hello world")]

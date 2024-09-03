@@ -11,9 +11,9 @@ public class GetTopicRequestValidatorShould
     {
         var valid = new GetTopicQuery(Guid.Parse("CF8A8459-1064-4FA4-963B-B618BF84FEB2"), 0, 1);
 
-        yield return new object[] { valid with { ForumId = Guid.Empty } };
-        yield return new object[] { valid with { Skip = -12} };
-        yield return new object[] { valid with { Take = -3} };
+        yield return [valid with { ForumId = Guid.Empty }];
+        yield return [valid with { Skip = -12}];
+        yield return [valid with { Take = -3}];
     }
 
     [Theory]

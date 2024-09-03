@@ -6,15 +6,8 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace EnglishHub.Api.Middleware;
 
-public class ErrorHandingMiddleware
+public class ErrorHandingMiddleware(RequestDelegate next)
 {
-    private readonly RequestDelegate _next;
-
-    public ErrorHandingMiddleware(RequestDelegate next)
-    {
-        _next = next;
-    }
-
     public async Task InvokeAsync(
         HttpContext context,
         ProblemDetailsFactory problemDetailsFactory,
@@ -22,7 +15,7 @@ public class ErrorHandingMiddleware
     {
         try
         {
-            await _next(context);
+            await next(context);
         }
         catch (Exception exception) 
         {

@@ -12,10 +12,10 @@ public class CreateTopicCommandValidatorShould
         var command = new CreateTopicCommand(
             Guid.Parse("3186D474-4CBD-44F9-A16D-39749B0AB0D7"), "Test");
 
-        yield return new object[] { command with { ForumId = Guid.Empty } };
-        yield return new object[] { command with { Title = "" } };
-        yield return new object[] { command with { Title = "    " } };
-        yield return new object[] { command with { Title = new string('a',201) } };
+        yield return [command with { ForumId = Guid.Empty }];
+        yield return [command with { Title = "" }];
+        yield return [command with { Title = "    " }];
+        yield return [command with { Title = new string('a',201) }];
     }
 
     [Theory]

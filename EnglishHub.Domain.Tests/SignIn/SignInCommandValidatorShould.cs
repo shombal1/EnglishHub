@@ -11,12 +11,12 @@ public class SignInCommandValidatorShould
     {
         SignInCommand validCommand = new SignInCommand("best login", "qwerty");
 
-        yield return new object[] { validCommand with { Login = "" } };
-        yield return new object[] { validCommand with { Login = "   " } };
-        yield return new object[] { validCommand with { Login = new string('a',31) } };
-        yield return new object[] { validCommand with { Password = "" } };
-        yield return new object[] { validCommand with { Password = "   " } };
-        yield return new object[] { validCommand with { Password = new string('a',51) } };
+        yield return [validCommand with { Login = "" }];
+        yield return [validCommand with { Login = "   " }];
+        yield return [validCommand with { Login = new string('a',31) }];
+        yield return [validCommand with { Password = "" }];
+        yield return [validCommand with { Password = "   " }];
+        yield return [validCommand with { Password = new string('a',51) }];
     }
 
     [Theory]

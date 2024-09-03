@@ -4,20 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EnglishHub.Storage.Storage;
 
-public class AuthenticationServiceStorage : IAuthenticationServiceStorage
+public class AuthenticationServiceStorage(EnglishHubDbContext dbContext, IMapper mapper) : IAuthenticationServiceStorage
 {
-    private readonly EnglishHubDbContext _dbContext;
-    private readonly IMapper _mapper;
-
-    public AuthenticationServiceStorage(
-        EnglishHubDbContext dbContext,
-        IMapper mapper)
-    {
-        _dbContext = dbContext;
-        _mapper = mapper;
-    }
     public async Task<Session?> FindSession(Guid sessionId, CancellationToken cancellationToken)
     {
-        return _mapper.Map<Session>(await _dbContext.Sessions.FindAsync(sessionId));
+        return mapper.Map<Session>(await dbContext.Sessions.FindAsync(sessionId));
     }
 }

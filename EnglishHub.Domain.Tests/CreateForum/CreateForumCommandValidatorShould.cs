@@ -10,9 +10,9 @@ public class CreateForumCommandValidatorShould
 
     public static IEnumerable<object[]> ReturnInvalidCommands()
     {
-        yield return new object[] { new CreateForumCommand("") };
-        yield return new object[] { new CreateForumCommand("    ") };
-        yield return new object[] { new CreateForumCommand(new string('a', 200)) };
+        yield return [new CreateForumCommand("")];
+        yield return [new CreateForumCommand("    ")];
+        yield return [new CreateForumCommand(new string('a', 200))];
     }
 
     [Theory]

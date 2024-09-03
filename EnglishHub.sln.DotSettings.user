@@ -2,15 +2,8 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
   &lt;Assembly Path="C:\Users\User\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d15a5bd_002Dcc0c_002D4cc8_002D9495_002D195e59a3bec6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnSuccess_WhenPasswordMatch" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.Authentication.PasswordManagerShould.ReturnSuccess_WhenPasswordMatch&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.Authentication.PasswordManagerShould.ReturnFalse_WhenPasswordNotMatch&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.Authentication.TripleDesSymmetricEncryptorDecryptorShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::270CC1C1-828B-41D2-9C7F-D1D775D962E8::net8.0::EnglishHub.E2E.AuthenticationEndPointShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3991c9fc_002Db6dd_002D4d19_002D87a6_002Da12f4a014001/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ThrowValidationException_WhenUserNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3991c9fc_002Db6dd_002D4d19_002D87a6_002Da12f4a014001/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ThrowValidationException_WhenUserNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39b9782a_002D415d_002D4017_002D93f9_002Dee77a467927b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignOutUseCaseShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -20,109 +13,25 @@
     &lt;TestId&gt;xUnit::A2BAD085-77D8-42E8-9356-B927BC7E6D36::net8.0::EnglishHub.Storage.Tests.AuthenticationStorageShould&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=480a67d2_002D7dfb_002D4091_002D8393_002Deaef352d359c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::270CC1C1-828B-41D2-9C7F-D1D775D962E8::net8.0::EnglishHub.E2E.AuthenticationEndPointShould.SignInAfterSignOn&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4db503dc_002D7335_002D400d_002D8020_002Dbb928941d5af/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnFalse_WhenEnumNonExists" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.Authorization.TopicIntentionResolveShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.GetForum.GetForumUseCaseShould.ReturnForums&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.Authorization.ForumIntentionResolveShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.CreateForum.CreateForumUseCaseShould.ReturnCreatedForum&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignOn.SignOnCommandValidatorShould.ReturnFailure_WhenCommandIsValid&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignOn.SignOnUseCaseShould.ReturnIdentityNewlyCreatedUser&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInCommandValidatorShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58cc692f_002D2d96_002D44a9_002D9984_002D66df7881d30c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="EncryptSessionIdIntoToken #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.EncryptSessionIdIntoToken&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5b9624b0_002D4b89_002D44dc_002D9363_002D26a770a9e09e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInCommandValidatorShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInCommandValidatorShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ThrowValidationException_WhenUserNotFound&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=60a0eab0_002D2508_002D45ab_002D88bc_002D2574bf2a90b0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::270CC1C1-828B-41D2-9C7F-D1D775D962E8::net8.0::EnglishHub.E2E.AuthenticationEndPointShould.SignInAfterSignOn&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8b64db86_002Dd0dc_002D4300_002D812a_002D945cac00ef74/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="EncryptSessionIdIntoToken" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.EncryptSessionIdIntoToken&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=912cf54f_002Dfbcf_002D47d1_002Db9b5_002Dcd03020293e7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ThrowValidationException_WhenPasswordDoesntMatch" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ThrowValidationException_WhenPasswordDoesntMatch&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9908e41c_002D9116_002D4ace_002Daa23_002D933976b18c55/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnToken" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fff2a2e1_002D571c_002D450d_002D958f_002D7a27fac100b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AccountIntentionResolveShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa3fbb4d_002Dff9d_002D435c_002Da138_002D1a370d2eeea1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b12ebccb_002D8ea2_002D415c_002Da6b9_002D1269e8985c0f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignInAfterSignOn #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::270CC1C1-828B-41D2-9C7F-D1D775D962E8::net8.0::EnglishHub.E2E.AuthenticationEndPointShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bd441b01_002D47d9_002D4a11_002Da392_002Dde6569cff0dc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="EncryptSessionIdIntoToken #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.Authentication.AuthenticationServiceShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.Authorization.AccountIntentionResolveShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c2bb3baf_002D932d_002D4630_002Db0a6_002D5a1f27df090d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateSession_WhenPasswordMatches" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.CreateSession_WhenPasswordMatches&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d63c5d4c_002De80c_002D430f_002Da1aa_002D940921151be6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SearchNonExistentUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.TestWorkPostgresql&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.CreateTopicCommandValidatorShould.ReturnSuccess_WhenCommandIsValid&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.CreateTopicCommandValidatorShould&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.GetTopicRequestValidatorShould&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.Authentication.PasswordManagerShould.GenerateMeaningFullSaltAndHash&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Test.Authentication.PasswordManagerShould.ReturnSuccess_WhenPasswordMatch&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.CreateSession_WhenPasswordMatches&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ReturnTokenAndIdentity&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;ProjectFile&gt;F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0/d:Authentication/f:AuthenticationServiceShould.cs&lt;/ProjectFile&gt;&#xD;
-  &lt;/Or&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e099c00e_002D1f38_002D4b77_002Da831_002D7bf481fcd8d7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RemoveCurrentIdentitySession" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignOut.SignOutUseCaseShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2BAD085-77D8-42E8-9356-B927BC7E6D36::net8.0::EnglishHub.Storage.Tests.AuthenticationStorageShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec0c0788_002Dbce1_002D48e4_002Da76a_002D16256a48bec8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnTokenAndIdentity" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.ReturnTokenAndIdentity&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignIn.SignInUseCaseShould.EncryptSessionIdIntoToken&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ed3fd680_002D4d00_002D4061_002Dbb62_002D88ad50e828f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AuthenticationStorageShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f07c0441_002Deddd_002D45d2_002D8f85_002D7095ef718a29/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestWorkPostgresql" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Solution /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fff2a2e1_002D571c_002D450d_002D958f_002D7a27fac100b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountIntentionResolveShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.Authorization.AccountIntentionResolveShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignOut.SignOutUseCaseShould.RemoveCurrentIdentitySession&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Decryptor/@EntryIndexedValue">True</s:Boolean>

@@ -3,19 +3,12 @@ using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace EnglishHub.E2E;
 
-public class GetFormsShould : IClassFixture<EnglishHubApplicationFactory>
+public class GetFormsShould(EnglishHubApplicationFactory factory) : IClassFixture<EnglishHubApplicationFactory>
 {
-    private readonly EnglishHubApplicationFactory _factory;
-
-    public GetFormsShould(EnglishHubApplicationFactory factory)
-    {
-        _factory = factory;
-    }
-
     [Fact]
     public async Task GetForms()
     {
-        using var client = _factory.CreateClient();
+        using var client = factory.CreateClient();
 
         var response = await client.GetAsync("Forum/All");
 

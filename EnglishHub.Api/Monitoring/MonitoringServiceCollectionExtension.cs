@@ -32,7 +32,7 @@ public static class MonitoringServiceCollectionExtension
                 .Filter.ByExcluding(Matching.FromSource("Microsoft"))
                 .WriteTo.GrafanaLoki(
                     configuration.GetConnectionString("Logs")!,
-                    propertiesAsLabels: new[] { "Application", "Environment" }))
+                    propertiesAsLabels: [ "Application", "Environment" ]))
             .WriteTo.Logger(lc => lc
                 .WriteTo.Console())
             .CreateLogger()));

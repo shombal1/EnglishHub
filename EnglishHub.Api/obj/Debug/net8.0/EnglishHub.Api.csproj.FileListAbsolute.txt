@@ -217,19 +217,15 @@ D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\obj\Debug\net8.0\E
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\obj\Debug\net8.0\ref\EnglishHub.Api.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\FluentValidation.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenSearch.Net.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
-D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Formatting.OpenSearch.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
-D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.OpenSearch.dll
-D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Domain.DependencyInjection.dll
 D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\EnglishHub.Storage.DependencyInjection.dll
@@ -270,3 +266,19 @@ D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\n
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Instrumentation.EntityFrameworkCore.dll
 D:\Programm\JetBrains Rider 2023.1\Project\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Grafana.Loki.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Google.Protobuf.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Grpc.Net.Common.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\MediatR.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Api.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\OpenTelemetry.Instrumentation.EntityFrameworkCore.dll
+D:\Programs\JetBrain Rider\Projects\EnglishHub\EnglishHub.Api\bin\Debug\net8.0\Serilog.Sinks.Grafana.Loki.dll

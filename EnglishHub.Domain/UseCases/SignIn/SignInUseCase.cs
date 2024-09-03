@@ -6,33 +6,22 @@ using Microsoft.Extensions.Options;
 
 namespace EnglishHub.Domain.UseCases.SignIn;
 
-public class SignInUseCase: IRequestHandler<SignInCommand,(IIdentity identity,string token)>
+public class SignInUseCase(
+    IValidator<SignInCommand> validator,
+    ISignInStorage storage,
+    IPasswordManager passwordManager,
+    ISymmetricEncryptor symmetricEncryptor,
+    IOptions<AuthenticationConfiguration> options,
+    TimeProvider timeProvider)
+    : IRequestHandler<SignInCommand, (IIdentity identity, string token)>
 {
-    private readonly IValidator<SignInCommand> _validator;
-    private readonly ISignInStorage _storage;
-    private readonly IPasswordManager _passwordManager;
-    private readonly ISymmetricEncryptor _symmetricEncryptor;
-    private readonly AuthenticationConfiguration _configuration;
-    
-    public SignInUseCase(
-        IValidator<SignInCommand> validator,
-        ISignInStorage storage,
-        IPasswordManager passwordManager,
-        ISymmetricEncryptor symmetricEncryptor,
-        IOptions<AuthenticationConfiguration> options)
-    {
-        _validator = validator;
-        _storage = storage;
-        _passwordManager = passwordManager;
-        _symmetricEncryptor = symmetricEncryptor;
-        _configuration = options.Value;
-    }
-    
+    private readonly AuthenticationConfiguration _configuration = options.Value;
+
     public async Task<(IIdentity identity,string token)> Handle(SignInCommand command, CancellationToken cancellationToken)
     {
-        await _validator.ValidateAndThrowAsync(command, cancellationToken);
+        await validator.ValidateAndThrowAsync(command, cancellationToken);
         
-        RecognizeUser? recognizeUser = await _storage.FindUser(command.Login, cancellationToken);
+        RecognizeUser? recognizeUser = await storage.FindUser(command.Login, cancellationToken);
 
         if (recognizeUser is null)
         {
@@ -47,7 +36,7 @@ public class SignInUseCase: IRequestHandler<SignInCommand,(IIdentity identity,st
             });
         }
 
-        bool passwordMatches = _passwordManager.ComparePassword(command.Password, recognizeUser.Salt, recognizeUser.PasswordHash);
+        bool passwordMatches = passwordManager.ComparePassword(command.Password, recognizeUser.Salt, recognizeUser.PasswordHash);
 
         if (!passwordMatches)
         {
@@ -62,9 +51,9 @@ public class SignInUseCase: IRequestHandler<SignInCommand,(IIdentity identity,st
             });
         }
         // TODO: Generate time expiration moment
-        Guid sessionId = await _storage.CreateSession(recognizeUser.UserId, 
-            DateTimeOffset.UtcNow + TimeSpan.FromHours(1), cancellationToken);
-        string token = await _symmetricEncryptor.Encrypt(sessionId.ToString(), _configuration.Key, cancellationToken);
+        Guid sessionId = await storage.CreateSession(recognizeUser.UserId, 
+            timeProvider.GetUtcNow() + TimeSpan.FromHours(1), cancellationToken);
+        string token = await symmetricEncryptor.Encrypt(sessionId.ToString(), _configuration.Key, cancellationToken);
 
         return (new User(recognizeUser.UserId,sessionId), token);
     }

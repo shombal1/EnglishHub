@@ -4,6 +4,7 @@ using EnglishHub.Domain.UseCases.SignIn;
 using FluentAssertions;
 using FluentValidation;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Time.Testing;
 using Moq;
 using Moq.Language.Flow;
 
@@ -42,7 +43,7 @@ public class SignInUseCaseShould
         });
         
         _sut = new SignInUseCase(validator.Object, _storage.Object, passwordManager.Object, _symmetricEncryptor.Object,
-            option.Object);
+            option.Object,new FakeTimeProvider());
     }
 
     [Fact]
@@ -96,8 +97,8 @@ public class SignInUseCaseShould
         
         _findUserSetup.ReturnsAsync(new RecognizeUser()
         {
-            Salt = new byte[]{1},
-            PasswordHash = new byte[]{2},
+            Salt = [1],
+            PasswordHash = [2],
             UserId = userId
         });
         _createSessionSetup.ReturnsAsync(sessionId);

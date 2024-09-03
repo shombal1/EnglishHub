@@ -105,7 +105,10 @@
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
-          "EnglishHub.Domain.dll": {}
+          "EnglishHub.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

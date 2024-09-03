@@ -1,5 +1,7 @@
 using System.Reflection;
+using EnglishHub.Domain;
 using EnglishHub.Domain.Authentication;
+using EnglishHub.Domain.UseCases;
 using EnglishHub.Domain.UseCases.CreateForum;
 using EnglishHub.Domain.UseCases.CreateTopic;
 using EnglishHub.Domain.UseCases.GetForum;
@@ -25,8 +27,9 @@ public static class SystemCollectionExtension
             .AddScoped<ISignOnStorage, SignOnStorage>()
             .AddScoped<ISignInStorage, SignInStorage>()
             .AddScoped<ISignOutStorage,SignOutStorage>()
-            .AddScoped<IAuthenticationServiceStorage,AuthenticationServiceStorage>();
-
+            .AddScoped<IAuthenticationServiceStorage,AuthenticationServiceStorage>()
+            .AddScoped<IDomainEventStorage,DomainEventStorage>();
+        
         service.AddDbContextPool<EnglishHubDbContext>(
             options => { options.UseNpgsql(dbConnectionStringPostgres); });
 
@@ -35,6 +38,10 @@ public static class SystemCollectionExtension
         service.AddAutoMapper(config => 
             config.AddMaps(Assembly.GetAssembly(typeof(EnglishHubDbContext))));
 
+        service.AddSingleton(TimeProvider.System);
+
+        service.AddSingleton<IUnitOfWork, UnitOfWork>();
+        
         return service;
     }
 }

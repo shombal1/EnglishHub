@@ -3,15 +3,8 @@ using EnglishHub.Domain.Authentication;
 
 namespace EnglishHub.Api.Middleware;
 
-public class AuthenticationMiddleware
+public class AuthenticationMiddleware(RequestDelegate next)
 {
-    private readonly RequestDelegate _next;
-
-    public AuthenticationMiddleware(RequestDelegate next)
-    {
-        _next = next;
-    }
-
     public async Task InvokeAsync (
         HttpContext httpContext,
         IAuthenticationTokenStorage authenticationTokenStorage,
@@ -22,6 +15,6 @@ public class AuthenticationMiddleware
             ? await authenticationService.Authenticate(token, httpContext.RequestAborted)
             : User.Guest;
 
-        await _next(httpContext);
+        await next(httpContext);
     }
 }

@@ -1,11 +1,6 @@
 namespace EnglishHub.Domain.Exceptions;
 
-public class DomainException : Exception
+public class DomainException(ErrorCode errorCode, string message) : Exception(message)
 {
-    public ErrorCode ErrorCode { get; }
-
-    public DomainException(ErrorCode errorCode, string message) : base(message)
-    {
-        ErrorCode = errorCode;
-    }
+    public ErrorCode ErrorCode { get; } = errorCode;
 }

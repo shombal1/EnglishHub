@@ -4,36 +4,25 @@ using Microsoft.Extensions.Options;
 
 namespace EnglishHub.Domain.Authentication;
 
-
-public class AuthenticationService : IAuthenticationService
+public class AuthenticationService(
+    ISymmetricDecryptor symmetricDecryptor,
+    IOptions<AuthenticationConfiguration> configuration,
+    IAuthenticationServiceStorage storage,
+    ILogger<AuthenticationService> logger)
+    : IAuthenticationService
 {
-    private readonly ISymmetricDecryptor _symmetricDecryptor;
-    private readonly IAuthenticationServiceStorage _storage;
-    private readonly ILogger<AuthenticationService> _logger;
-    private readonly AuthenticationConfiguration _configuration;
-    
-    public AuthenticationService(
-        ISymmetricDecryptor symmetricDecryptor,
-        IOptions<AuthenticationConfiguration> configuration,
-        IAuthenticationServiceStorage storage,
-        ILogger<AuthenticationService> logger)
-    {
-        _symmetricDecryptor = symmetricDecryptor;
-        _storage = storage;
-        _logger = logger;
-        _configuration = configuration.Value;
-    }
-    
+    private readonly AuthenticationConfiguration _configuration = configuration.Value;
+
     public async Task<IIdentity> Authenticate(string authToken, CancellationToken cancellationToken)
     {
         string sessionIdString;
         try
         {
-            sessionIdString = await _symmetricDecryptor.Decrypt(authToken, _configuration.Key, cancellationToken);
+            sessionIdString = await symmetricDecryptor.Decrypt(authToken, _configuration.Key, cancellationToken);
         }
         catch (CryptographicException cryptographicException)
         {
-            _logger.LogWarning(
+            logger.LogWarning(
                 cryptographicException,
                 "authentication token cannot be decrypt, maybe someone is trying to crack the token");
             return User.Guest;
@@ -44,7 +33,7 @@ public class AuthenticationService : IAuthenticationService
             return User.Guest;
         }
 
-        Session? session = await _storage.FindSession(sessionId, cancellationToken);
+        Session? session = await storage.FindSession(sessionId, cancellationToken);
 
         if (session is null)
         {
@@ -55,7 +44,7 @@ public class AuthenticationService : IAuthenticationService
         {
             return User.Guest;
         }
-        
-        return new User(session.UserId,sessionId);
+
+        return new User(session.UserId, sessionId);
     }
 }

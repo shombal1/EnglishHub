@@ -937,7 +937,10 @@
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
-          "EnglishHub.Domain.dll": {}
+          "EnglishHub.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EnglishHub.Domain.DependencyInjection/1.0.0": {
@@ -947,7 +950,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.5.24306.7"
         },
         "runtime": {
-          "EnglishHub.Domain.DependencyInjection.dll": {}
+          "EnglishHub.Domain.DependencyInjection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EnglishHub.Storage/1.0.0": {
@@ -958,7 +964,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2"
         },
         "runtime": {
-          "EnglishHub.Storage.dll": {}
+          "EnglishHub.Storage.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EnglishHub.Storage.DependencyInjection/1.0.0": {
@@ -969,7 +978,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.5.24306.7"
         },
         "runtime": {
-          "EnglishHub.Storage.DependencyInjection.dll": {}
+          "EnglishHub.Storage.DependencyInjection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

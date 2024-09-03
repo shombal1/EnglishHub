@@ -36,7 +36,8 @@ namespace EnglishHub.Storage.Migrations
 
                     b.Property<string>("Text")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(1000)
+                        .HasColumnType("character varying(1000)");
 
                     b.Property<Guid>("TopicId")
                         .HasColumnType("uuid");
@@ -53,6 +54,24 @@ namespace EnglishHub.Storage.Migrations
                     b.ToTable("Comments");
                 });
 
+            modelBuilder.Entity("EnglishHub.Storage.Models.DomainEventEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CalledEntity")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("Created")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DomainEvents");
+                });
+
             modelBuilder.Entity("EnglishHub.Storage.Models.ForumEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -61,7 +80,8 @@ namespace EnglishHub.Storage.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
 
                     b.HasKey("Id");
 

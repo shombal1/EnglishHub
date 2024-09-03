@@ -22,7 +22,7 @@ public class SignOnUseCaseShould
         validator.Setup(v => v.ValidateAsync(It.IsAny<SignOnCommand>(), It.IsAny<CancellationToken>()))
             .ReturnsAsync(new ValidationResult());
         passwordManager.Setup(p => p.GeneratePassword(It.IsAny<string>()))
-            .Returns((new byte[] { 1 }, new byte[] { 2 }));
+            .Returns(([1], [2]));
 
         _storageSetup = storage.Setup(s =>
             s.CreateUser(It.IsAny<string>(), It.IsAny<byte[]>(), It.IsAny<byte[]>(), It.IsAny<CancellationToken>()));

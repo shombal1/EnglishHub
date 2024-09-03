@@ -1324,7 +1324,10 @@
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
-          "EnglishHub.Domain.dll": {}
+          "EnglishHub.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EnglishHub.Storage/1.0.0": {
@@ -1335,7 +1338,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2"
         },
         "runtime": {
-          "EnglishHub.Storage.dll": {}
+          "EnglishHub.Storage.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

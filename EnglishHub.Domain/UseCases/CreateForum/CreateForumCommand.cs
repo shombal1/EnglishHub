@@ -3,4 +3,4 @@ using MediatR;
 
 namespace EnglishHub.Domain.UseCases.CreateForum;
 
-public record class CreateForumCommand(string Title) : IRequest<Forum>;
+public record CreateForumCommand(string Title) : IRequest<Forum>;

@@ -46,6 +46,8 @@ app.UseMiddleware<ErrorHandingMiddleware>()
    .UseMiddleware<AuthenticationMiddleware>();
 
 app.UseOpenTelemetryPrometheusScrapingEndpoint();
+
+app.UseRouting();
 app.Run();
 
 namespace EnglishHub.Api

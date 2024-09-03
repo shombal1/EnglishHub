@@ -14,7 +14,7 @@ namespace EnglishHub.Domain.Tests.CreateTopic;
 
 public class CreateTopicUseCaseShould
 {
-    private readonly CreateTopicUseCase sut;
+    private readonly CreateTopicUseCase _sut;
 
     private readonly ISetup<ICreateTopicStorage, Task<Topic>> _createTopicStorageSetup;
     private readonly ISetup<IIdentity, Guid> _getCurrentUserIdSetup;
@@ -31,7 +31,7 @@ public class CreateTopicUseCaseShould
         var validator = new Mock<IValidator<CreateTopicCommand>>();
 
         _createTopicStorageSetup = storage.Setup(s =>
-            s.CreateTopic(It.IsAny<Guid>(), It.IsAny<Guid>(), It.IsAny<string>(),It.IsAny<CancellationToken>()));
+            s.CreateTopic(It.IsAny<Guid>(), It.IsAny<Guid>(), It.IsAny<string>(), It.IsAny<CancellationToken>()));
         _getForumStorageSetup = getForumsStorage.Setup(s => s.GetForums(It.IsAny<CancellationToken>()));
         identityProvider.Setup(p => p.Current).Returns(identity.Object);
         _getCurrentUserIdSetup = identity.Setup(s => s.UserId);
@@ -41,19 +41,19 @@ public class CreateTopicUseCaseShould
                 v.ValidateAsync(It.IsAny<CreateTopicCommand>(), It.IsAny<CancellationToken>()))
             .ReturnsAsync(new ValidationResult());
 
-        sut = new(identityProvider.Object, storage.Object, getForumsStorage.Object,
-            intentionManager.Object, validator.Object);
+        _sut = new(identityProvider.Object, getForumsStorage.Object,
+            intentionManager.Object, validator.Object, null);
     }
 
     [Fact]
     public async Task ThrowIntentionManagerException_WhenTopicCreatedNotAllowed()
     {
         var forumId = Guid.Parse("5E1DCF96-E8F3-41C9-BD59-6479140933B3");
-        _getForumStorageSetup.ReturnsAsync(new Forum[] { new Forum() { Id = forumId } });
+        _getForumStorageSetup.ReturnsAsync([new Forum() { Id = forumId }]);
 
         _intentionIsAllowedSetup.Returns(false);
 
-        await sut.Invoking(t => t.Handle(new CreateTopicCommand(forumId, "forum"),CancellationToken.None)).Should()
+        await _sut.Invoking(t => t.Handle(new CreateTopicCommand(forumId, "forum"), CancellationToken.None)).Should()
             .ThrowAsync<IntentionManagerException>();
     }
 
@@ -65,7 +65,7 @@ public class CreateTopicUseCaseShould
         _intentionIsAllowedSetup.Returns(true);
         _getForumStorageSetup.ReturnsAsync(Array.Empty<Forum>());
 
-        await sut.Invoking(s => s.Handle(new CreateTopicCommand(forumId, "Some title"),CancellationToken.None))
+        await _sut.Invoking(s => s.Handle(new CreateTopicCommand(forumId, "Some title"), CancellationToken.None))
             .Should().ThrowAsync<ForumNotFoundException>();
     }
 }
