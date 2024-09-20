@@ -1,7 +1,0 @@
-{
-  "EnglishHub.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Api",
-  "EnglishHub.Domain.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain.DependencyInjection",
-  "EnglishHub.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Domain",
-  "EnglishHub.Storage.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Storage.DependencyInjection",
-  "EnglishHub.Storage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Programs\\JetBrain Rider\\Projects\\EnglishHub\\EnglishHub.Storage"
-}

@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Api", "EnglishHub.Api\EnglishHub.Api.csproj", "{E607B103-7657-4DF1-81D7-E56BBE6C6A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Api", "EnglishHub.Forums.Api\EnglishHub.Forums.Api.csproj", "{E607B103-7657-4DF1-81D7-E56BBE6C6A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Storage", "EnglishHub.Storage\EnglishHub.Storage.csproj", "{EBC68A60-01C0-4A3C-B889-739742620629}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Storage", "EnglishHub.Forums.Storage\EnglishHub.Forums.Storage.csproj", "{EBC68A60-01C0-4A3C-B889-739742620629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Domain.Tests", "EnglishHub.Domain.Tests\EnglishHub.Domain.Tests.csproj", "{F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Domain.Tests", "EnglishHub.Forums.Domain.Tests\EnglishHub.Forums.Domain.Tests.csproj", "{F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Domain", "EnglishHub.Domain\EnglishHub.Domain.csproj", "{059FEABF-F1D0-4486-8B5E-A725FB092A0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Domain", "EnglishHub.Forums.Domain\EnglishHub.Forums.Domain.csproj", "{059FEABF-F1D0-4486-8B5E-A725FB092A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Domain.DependencyInjection", "EnglishHub.Domain.DependencyInjection\EnglishHub.Domain.DependencyInjection.csproj", "{5347237F-0CB5-4DB3-90F3-5990A7FDC699}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Domain.DependencyInjection", "EnglishHub.Forums.Domain.DependencyInjection\EnglishHub.Forums.Domain.DependencyInjection.csproj", "{5347237F-0CB5-4DB3-90F3-5990A7FDC699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Storage.DependencyInjection", "EnglishHub.Storage.DependencyInjection\EnglishHub.Storage.DependencyInjection.csproj", "{F64C1225-7B99-4AF2-9DD1-CEC51B7C550C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Storage.DependencyInjection", "EnglishHub.Forums.Storage.DependencyInjection\EnglishHub.Forums.Storage.DependencyInjection.csproj", "{F64C1225-7B99-4AF2-9DD1-CEC51B7C550C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.E2E", "EnglishHub.E2E\EnglishHub.E2E.csproj", "{270CC1C1-828B-41D2-9C7F-D1D775D962E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.E2E", "EnglishHub.Forums.E2E\EnglishHub.Forums.E2E.csproj", "{270CC1C1-828B-41D2-9C7F-D1D775D962E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Storage.Tests", "EnglishHub.Storage.Tests\EnglishHub.Storage.Tests.csproj", "{A2BAD085-77D8-42E8-9356-B927BC7E6D36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishHub.Forums.Storage.Tests", "EnglishHub.Forums.Storage.Tests\EnglishHub.Forums.Storage.Tests.csproj", "{A2BAD085-77D8-42E8-9356-B927BC7E6D36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

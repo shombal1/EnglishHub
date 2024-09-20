@@ -67,18 +67,97 @@ services:
       - '14250:14250' 
       - '14268:14268' 
       - '14269:14269' 
-      - '9411:9411' 
-        
-  api:
-    build:
-      context: ./..
-      dockerfile: docker/Dockerfile
-    #image: 'english_hub:local'
-    container_name: 'english_hub_api'
+      - '9411:9411'
+  
+  zookeeper:
+    image: 'confluentinc/cp-zookeeper:7.5.0'
+    container_name: 'zookeeper'
     ports:
-      - '8080:8080'
+      - "2181:2181"
     environment:
-      ASPNET_URLS: 'http://0.0.0.0:8080'
-      ConnectionStrings__EnglishHubDbContext: 'Host=postgres;User Id=shombal;Password=1111;Database=english_hub;Port=5432'
-      ConnectionStrings__Logs: 'http://loki:3100'
-      ConnectionStrings__Tracing: 'http://jaeger:4318/v1/traces'
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+      
+  broker:
+    image: 'confluentinc/cp-kafka:7.5.0'
+    container_name: 'kafka-broker'
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "9101:9101"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092
+    
+  
+  kafka-ui:
+    container_name: 'kafka-ui'
+    image: 'provectuslabs/kafka-ui:latest'
+    ports:
+      - 8082:8080
+    depends_on:
+      - broker
+      - kafka-connect
+    environment:
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka-broker:29092
+      KAFKA_CLUSTERS_0_KAFKACONNECT_0_NAME: domain-events-outbox
+      KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kafka-connect:8083
+      
+      
+      
+      
+   #   TODO fix connect
+   #   curl -X POST -H "Content-Type: application/json" --data "{\"name\":\"english-hub.domain-events.source\",\"config\":{\"connector.class\":\"io.confluent.connect.jdbc.JdbcSourceConnector\",\"connection.url\":\"jdbc:postgresql://postgres:5432/english_hub\",\"connection.user\":\"shombal\",\"connection.password\":\"1111\",\"table.whitelist\":\"DomainEvents\",\"mode\":\"timestamp\",\"timestamp.column.name\":\"Created\",\"topic.prefix\":\"EnglishHub.\",\"poll.interval.ms\":\"3000\",\"batch.max.rows\":\"10\",\"db.timezone\":\"UTC\",\"transforms\":\"createKey,extractField\",\"transforms.createKey.type\":\"org.apache.kafka.connect.transforms.ValueToKey\",\"transforms.createKey.fields\":\"Id\",\"transforms.extractField.type\":\"org.apache.kafka.connect.transforms.ExtractField$Value\",\"transforms.extractField.field\":\"Id\"}}" http://localhost:8083/connectors/
+ # confluent-hub install confluentinc/kafka-connect-jdbc:latest
+  
+  # curl -X PUT -H "Content-Type: application/json" --data "{\"connector.class\":\"io.confluent.connect.jdbc.JdbcSourceConnector\",\"connection.url\":\"jdbc:postgresql://postgres:5432/english_hub\",\"connection.user\":\"shombal\",\"connection.password\":\"1111\",\"table.whitelist\":\"DomainEvents\",\"mode\":\"timestamp\",\"timestamp.column.name\":\"Created\",\"topic.prefix\":\"EnglishHub.\",\"poll.interval.ms\":\"3000\",\"batch.max.rows\":\"10\",\"db.timezone\":\"UTC\",\"transforms\":\"createKey,extractField\",\"transforms.createKey.type\":\"org.apache.kafka.connect.transforms.ValueToKey\",\"transforms.createKey.fields\":\"Id\",\"transforms.extractField.type\":\"org.apache.kafka.connect.transforms.ExtractField$Value\",\"transforms.extractField.field\":\"Id\"}" http://localhost:8083/connectors/english-hub.domain-events.source/config
+  kafka-connect:
+    container_name: 'kafka-connect'
+    image: 'confluentinc/cp-kafka-connect:latest'
+    ports:
+      - 8083:8083
+    depends_on:
+      - broker
+    environment:
+      CONNECT_BOOTSTRAP_SERVERS: kafka-broker:29092
+      CONNECT_CONFIG_STORAGE_TOPIC: docker-connect-configs
+      CONNECT_OFFSET_STORAGE_TOPIC: docker-connect-offsets
+      CONNECT_STATUS_STORAGE_TOPIC: docker-connect-status
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_GROUP_ID: compose-connect-group
+      CONNECT_REST_ADVERTISED_HOST_NAME: kafka-connect
+      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_INTERNAL_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_INTERNAL_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE: FALSE
+      CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: FALSE
+      CONNECT_INTERNAL_KEY_CONVERTER_SCHEMAS_ENABLE: FALSE
+      CONNECT_INTERNAL_VALUE_CONVERTER_SCHEMAS_ENABLE: FALSE
+#      CONNECT_offset_storage_file.filename: '/tmp/connect.offsets'
+      CONNECT_PLUGIN_PATH: "/usr/share/java,/usr/share/confluent-hub-components"
+      
+      
+      
+#  api:
+#    build:
+#      context: ./..
+#      dockerfile: docker/Dockerfile
+#    #image: 'english_hub:local'
+#    container_name: 'english_hub_api'
+#    ports:
+#      - '8080:8080'
+#    environment:
+#      ASPNET_URLS: 'http://0.0.0.0:8080'
+#      ConnectionStrings__EnglishHubDbContext: 'Host=postgres;User Id=shombal;Password=1111;Database=english_hub;Port=5432'
+#      ConnectionStrings__Logs: 'http://loki:3100'
+#      ConnectionStrings__Tracing: 'http://jaeger:4318/v1/traces'

@@ -6,12 +6,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3991c9fc_002Db6dd_002D4d19_002D87a6_002Da12f4a014001/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ThrowValidationException_WhenUserNotFound" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39b9782a_002D415d_002D4017_002D93f9_002Dee77a467927b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SignOutUseCaseShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::F2AE5477-29B5-4513-A6C9-7C7F96E2B3A0::net8.0::EnglishHub.Domain.Tests.SignOut.SignOutUseCaseShould&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2BAD085-77D8-42E8-9356-B927BC7E6D36::net8.0::EnglishHub.Storage.Tests.SignInStorageShould.FindUserByLogin&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2BAD085-77D8-42E8-9356-B927BC7E6D36::net8.0::EnglishHub.Storage.Tests.AuthenticationStorageShould&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39b9782a_002D415d_002D4017_002D93f9_002Dee77a467927b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SignOutUseCaseShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
 	
@@ -30,7 +26,7 @@
 	
 	
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fff2a2e1_002D571c_002D450d_002D958f_002D7a27fac100b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AccountIntentionResolveShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fff2a2e1_002D571c_002D450d_002D958f_002D7a27fac100b2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AccountIntentionResolveShould" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
