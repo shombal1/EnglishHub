@@ -8,6 +8,7 @@ volumes:
   logs:
   prometheus:
   grafana:
+  opensearch:
 
 services:
   postgres:
@@ -68,6 +69,33 @@ services:
       - '14268:14268' 
       - '14269:14269' 
       - '9411:9411'
+  
+  opensearch: 
+    image: 'opensearchproject/opensearch:latest' 
+    container_name: 'english-hub-opensearch'
+    environment:
+      discovery.type: 'single-node'
+      plugins.security.disabled: 'true'
+      OPENSEARCH_INITIAL_ADMIN_PASSWORD: 'OJxZer7nM1'
+    volumes:
+      - opensearch:/usr/share/opensearch/data
+    ports:
+      - 9200:9200 
+      - 9600:9600 
+    
+  opensearch-dashboards:
+    image: 'opensearchproject/opensearch-dashboards:latest'
+    container_name: 'english-hub-opensearch-dashboards'
+    ports:
+      - '5601:5601' 
+    expose:
+      - "5601"
+    environment:
+      OPENSEARCH_HOSTS: '["http://english-hub-opensearch:9200"]'
+      DISABLE_SECURITY_DASHBOARDS_PLUGIN: 'true'
+    depends_on:
+      - opensearch
+  
   
   zookeeper:
     image: 'confluentinc/cp-zookeeper:7.5.0'
